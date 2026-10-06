@@ -1,0 +1,5 @@
+# dados baixados (reproduzíveis com baixar_ultimo_ano.py)
+dados/
+__pycache__/
+*.pyc
+*.part
