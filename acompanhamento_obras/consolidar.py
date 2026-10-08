@@ -707,6 +707,20 @@ def main(argv):
                 pct_executado_ultimo=("pct_executado_acum_ate_ref", "last")).reset_index())
     cat["presente_no_ultimo_snapshot"] = cat["ultima_ref"] == cat["concessao"].map(ult_snap)
 
+    # lista enxuta para comparar com outras bases (ex.: PELT): nome atual + nomes/códigos que a obra já teve
+    def outros(col):
+        return lambda s: " | ".join(dict.fromkeys(x for x in s[::-1].dropna().astype(str)))
+    hist = (pr.sort_values("mes_referencia").groupby("obra_id")
+            .agg(descricoes_anteriores=("descricao", outros("descricao")), itens_per=("item_per", outros("item_per"))))
+    lista = cat.merge(hist, on="obra_id")
+    lista["empreendimento"] = lista["concessao"].map(lambda s: EMPS[s]["nome"])
+    lista["descricoes_anteriores"] = [
+        " | ".join(d for d in todas.split(" | ") if d != atual) or None
+        for todas, atual in zip(lista["descricoes_anteriores"], lista["descricao"].astype(str))]
+    lista = lista[["id_empreendimento", "empreendimento", "obra_id", "item_per", "id_sigicor", "descricao", "rodovia",
+                   "km_inicial", "km_final", "primeira_ref", "ultima_ref", "presente_no_ultimo_snapshot",
+                   "itens_per", "descricoes_anteriores"]].sort_values(["id_empreendimento", "obra_id"])
+
     # previsto mês a mês de cada obra em cada snapshot (1º valor preenchido entre blocos)
     prev_mes = (se[(se["nivel"] == "obra") & (se["tipo"] == "previsto")]
                 .groupby(["snapshot", "obra_id", "mes"], sort=False)["pct"].first().sort_index())
@@ -795,6 +809,8 @@ def main(argv):
     s.to_csv(SAIDA / "snapshots.csv", index=False, sep=";", encoding="utf-8-sig")
     cat.to_csv(SAIDA / "obras.csv", index=False, sep=";", encoding="utf-8-sig")
     marcos.to_csv(SAIDA / "marcos_por_obra.csv", index=False, sep=";", encoding="utf-8-sig")
+    lista.to_csv(SAIDA / "lista_obras.csv", index=False, sep=";", encoding="utf-8-sig")
+    lista.to_excel(SAIDA / "lista_obras.xlsx", index=False)
     ob.to_csv(SAIDA / "obras_por_snapshot.csv", index=False, sep=";", encoding="utf-8-sig")
     se.to_csv(SAIDA / "serie_mensal.csv", index=False, sep=";", encoding="utf-8-sig")
     et.to_csv(SAIDA / "etapas_por_snapshot.csv", index=False, sep=";", encoding="utf-8-sig")

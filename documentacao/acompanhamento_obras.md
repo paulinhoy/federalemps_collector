@@ -47,6 +47,7 @@ Todas trazem `id_empreendimento` (PELT) e `concessao` (slug), exceto `serie_mens
 
 | Arquivo | Uma linha por… | Para quê |
 |---|---|---|
+| `lista_obras.csv` / `.xlsx` | obra | **Lista enxuta para comparar com outras bases (PELT)**: nome atual, códigos (`obra_id`, item PER, id SIGICOR), rodovia/km, período em que aparece, e todos os nomes e itens PER que a obra já teve |
 | `marcos_por_obra.csv` | obra | **Marcos e histórico resumido de cada obra** (seção 3.2): quando surgiu, 1º avanço, conclusão, última variação, revisões, mais um texto explicando a trajetória |
 | `obras_por_snapshot.csv` | obra × mês de referência | **Tabela limpa principal**: campos da obra repetidos + mês de referência + situação + % previsto e executado |
 | `obras.csv` | obra | Catálogo: `obra_id` estável, código PER, descrição, local, 1ª e última aparição, situação e % no último mês |
