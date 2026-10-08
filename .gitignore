@@ -1,4 +1,4 @@
-# dados baixados (reproduzíveis com baixar_ultimo_ano.py)
+# dados baixados e gerados (reproduzíveis com acompanhamento_obras/baixar.py e consolidar.py)
 dados/
 __pycache__/
 *.pyc

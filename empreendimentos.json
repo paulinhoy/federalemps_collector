@@ -1,0 +1,26 @@
+[
+  {
+    "id_empreendimento": 105,
+    "nome": "Ecovias Rio Minas",
+    "orgao": "ANTT",
+    "slug_antt": "ecoriominas",
+    "sigla": "ERM",
+    "url_antt": "https://www.gov.br/antt/pt-br/assuntos/rodovias/concessionarias/lista-de-concessoes/ecoriominas"
+  },
+  {
+    "id_empreendimento": 103,
+    "nome": "Ecovias do Cerrado",
+    "orgao": "ANTT",
+    "slug_antt": "ecovias-do-cerrado",
+    "sigla": "ECC",
+    "url_antt": "https://www.gov.br/antt/pt-br/assuntos/rodovias/concessionarias/lista-de-concessoes/ecovias-do-cerrado"
+  },
+  {
+    "id_empreendimento": 104,
+    "nome": "ECO050 (Ecovias Minas Goiás)",
+    "orgao": "ANTT",
+    "slug_antt": "eco050",
+    "sigla": "EMG",
+    "url_antt": "https://www.gov.br/antt/pt-br/assuntos/rodovias/concessionarias/lista-de-concessoes/eco050"
+  }
+]
