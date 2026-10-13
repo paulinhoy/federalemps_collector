@@ -22,12 +22,23 @@ acompanhamento_obras/         % de avanço físico das obras (ANTT)
   portal_antt.py              acesso ao portal e caminhos
   baixar.py                   baixa o histórico completo (incremental)
   consolidar.py               gera as tabelas consolidadas e os marcos por obra
+valores_obras/                valores financeiros (Capex, orçamentos, estimativas) ligados às obras
+  organizar.py                extrai das planilhas da ANTT, liga às obras e gera as tabelas
+  fontes.py                   documentos-fonte (link)
+  valores_manuais.csv         valores transcritos de PDFs (com página)
+  totais_manuais.csv          totais do empreendimento transcritos de PDFs/páginas
+  correspondencias_manuais.csv  ligações obra x valor feitas à mão, com justificativa
 documentacao/
   acompanhamento_obras.md     regras, tabelas, colunas, resultados, limitações
+  valores_obras.md            hierarquia dos valores, tipos de valor, tabelas, resultados
+  pesquisa_financeiro_antt.md onde estão os dados financeiros no portal da ANTT
+  checkpoint_financeiro.md    resumo do que existe de valores por empreendimento
 dados/                        (fora do git) gerado pelos scripts
   acompanhamento_obras/
     brutos/                   arquivos do portal por concessão e ano
     consolidado/              tabelas CSV + consolidado.xlsx
+  valores_obras/              fontes baixadas + tabelas de valores + valores_obras.xlsx
+  pesquisa_financeiro/        documentos baixados pelo agente de pesquisa (mesmas pastas do portal) + inventario.csv
 ```
 
 Novas fontes (contratos, valores) entram como novas pastas ao lado de `acompanhamento_obras/`, tanto no código quanto em `dados/`.
@@ -35,9 +46,19 @@ Novas fontes (contratos, valores) entram como novas pastas ao lado de `acompanha
 ## Como rodar
 
 ```
-pip install requests pandas openpyxl
+py -3.13 -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
 python acompanhamento_obras/baixar.py
 python acompanhamento_obras/consolidar.py
+python valores_obras/organizar.py
 ```
 
-Detalhes em [`documentacao/acompanhamento_obras.md`](documentacao/acompanhamento_obras.md).
+O pandas está fixado em 2.3.2: com o pandas 3.0 os scripts quebram por causa da mudança no tipo de string.
+
+`consolidar.py` precisa rodar antes de `organizar.py`, porque gera a `lista_obras` em que os valores são ligados.
+
+Detalhes:
+- [`documentacao/acompanhamento_obras.md`](documentacao/acompanhamento_obras.md): avanço físico;
+- [`documentacao/valores_obras.md`](documentacao/valores_obras.md): valores financeiros;
+- [`documentacao/checkpoint_financeiro.md`](documentacao/checkpoint_financeiro.md): situação atual e próximos passos.
