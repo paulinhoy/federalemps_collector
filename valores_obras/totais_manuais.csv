@@ -1,0 +1,22 @@
+total_id;id_empreendimento;tipo_valor;natureza;descricao;valor;data_base;periodo;fonte_id;localizacao;precisao;conferido_por;observacao
+EMG-EDITAL-CONTRATO;104;inicial_leilao;contrato;Valor estimado do contrato (Edital 001/2013, lote BR-050/GO/MG);10142971856.00;2012-05;30 anos;eco050_edital;p.9 do PDF (p.8 impressa), item 1.6.2;média;revisão manual;Edital: "valor meramente indicativo" (item 1.7). Não é Capex: é o valor estimado do contrato
+ERM-NOTICIA-CAPEX;105;inicial_leilao;capex;Capex total estimado para os 30 anos de concessão;8800000000;2021-01;30 anos;erm_noticia_edital;texto da notícia, seção "Investimentos";baixa;revisão manual;Valor arredondado (R$ 8,8 bilhões) em notícia, data-base declarada jan/2021, diferente da data-base do contrato (out/2021)
+ERM-NOTICIA-OPEX;105;inicial_leilao;opex;Opex total (custos operacionais, despesas obrigatórias, seguros e garantias) para os 30 anos;8500000000;2021-01;30 anos;erm_noticia_edital;texto da notícia, seção "Investimentos";baixa;revisão manual;Valor arredondado (R$ 8,5 bilhões) em notícia
+EMG-DF-ATE2017;104;realizado;capex;Investimentos realizados acumulados até 2017 (Demonstrações Financeiras);908800000;corrente;até 2017;eco050_df2019;p.7;média;agente de pesquisa;R$ milhões arredondados no relatório da pesquisa
+EMG-DF-2018;104;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);366100000;corrente;2018;eco050_df2019;p.7;média;agente de pesquisa;
+EMG-DF-2019;104;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);226300000;corrente;2019;eco050_df2019;p.7;média;agente de pesquisa;
+EMG-DF-2020;104;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);183900000;corrente;2020;eco050_df2020;p.13;média;agente de pesquisa;
+EMG-DF-2021;104;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);278700000;corrente;2021;eco050_df2021;p.22;média;agente de pesquisa;
+EMG-DF-2022;104;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);268700000;corrente;2022;eco050_df2022;p.18;média;agente de pesquisa;
+EMG-DF-2023;104;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);275500000;corrente;2023;eco050_df2023;p.12;média;agente de pesquisa;
+EMG-DF-2024;104;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);333800000;corrente;2024;eco050_df2024;p.4;média;agente de pesquisa;
+EMG-DF-2025;104;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);262900000;corrente;2025;eco050_df2025;p.10;média;agente de pesquisa;
+ECC-DF-2021;103;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);153600000;corrente;2021;ecc_df2021;p.18;média;agente de pesquisa;
+ECC-DF-2022;103;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);349700000;corrente;2022;ecc_df2022;p.12;média;agente de pesquisa;
+ECC-DF-2023;103;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);249000000;corrente;2023;ecc_df2023;p.12;média;agente de pesquisa;
+ECC-DF-2024;103;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);352200000;corrente;2024;ecc_df2024;p.4;média;agente de pesquisa;
+ECC-DF-2025;103;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);278800000;corrente;2025;ecc_df2025;p.10-11;média;agente de pesquisa;
+ERM-DF-2022;105;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);93600000;corrente;2022;erm_df2022;p.9;média;agente de pesquisa;
+ERM-DF-2023;105;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);1175300000;corrente;2023;erm_df2023;p.12;média;agente de pesquisa;
+ERM-DF-2024;105;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);721000000;corrente;2024;erm_df2024;p.4;média;agente de pesquisa;
+ERM-DF-2025;105;realizado;capex;Investimentos realizados no ano (Demonstrações Financeiras);1532600000;corrente;2025;erm_df2025;p.10;média;agente de pesquisa;

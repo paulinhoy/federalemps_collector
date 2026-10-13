@@ -39,12 +39,31 @@ Há **valor inicial previsto por obra** só na Ecovias do Cerrado. Na ECO050 ele
 - Os valores iniciais estão a preços antigos (2012/2016). Para comparar com valores atuais, corrigir pelo IPCA (o IRT da ECO050 em 2026 é 2,22).
 - A lista do leilão não bate um a um com a lista do acompanhamento (nomes e agrupamentos diferentes). Ligar por **rodovia + km**.
 - Planilha base: datas em texto inválidas na Cerrado ("31/09/2025"); Capex repetido em linhas da ECO050 (km 286,5 = km 196,5).
-- Pendências de leitura: arquivos `.xlsb` do Cerrado (precisa do pacote `pyxlsb`) e cerca de 50 PDFs escaneados sem texto (lista na seção 6.1 da pesquisa).
+- Pendência de leitura: cerca de 50 PDFs escaneados, sem texto (lista na seção 6.1 da pesquisa). Os `.xlsb` do Cerrado já são lidos com `pyxlsb`.
 
-## 6. Opções de próximos passos (a decidir)
+## 6. O que já foi feito (out/2026)
 
-1. Tabela `valor_inicial_por_obra` (valor, data-base, tipo do valor, fonte com link/linha, `obra_id` ligado por rodovia + km): Cerrado completa, ECO050 com retornos, trecho DNIT e Planilha base, Rio Minas marcada como "não publicado".
-2. Ler os `.xlsb` do Cerrado para localizar as obras que hoje só têm valor por tipo × quantidade.
-3. Incluir a aba "Planilha base" no `consolidar.py`, porque deve se repetir nos próximos meses (estimativa atual + datas de início e entrega).
-4. Preencher `id_sigicor` da ECO050 a partir dos planejamentos anual e quinquenal.
-5. Para a Rio Minas, decidir se vale buscar fora da ANTT (ex.: estudo do leilão em BNDES/PPI).
+1. **Tabelas de valores por obra** (`valores_obras/organizar.py`; ver [`valores_obras.md`](valores_obras.md)):
+   - cada valor traz data-base, documento, link e página ou célula;
+   - a ligação com a obra diz a forma: `direto`, `unitario_tipo` ou `grupo` (dividido entre as obras do grupo);
+   - obras com valores de mais de uma fonte ficam marcadas com `fontes_concorrentes`;
+   - totais do empreendimento ficam em `valor_total_empreendimento`.
+2. **`.xlsb` do Cerrado lidos:** `RESUMO_OBRAS_MELHORIAS_REV8.xlsb` dá o local de cada dispositivo (passarelas, rotatórias, acessos). Com ele, o valor unitário por tipo vai para a obra certa.
+3. **Correspondências manuais:**
+   - as 2 passarelas da ECO050 que mudaram de km pelo 6º Termo Aditivo;
+   - o arquivo para novas ligações feitas à mão é `valores_obras/correspondencias_manuais.csv`.
+
+Resultado, considerando as obras presentes em abr/2026:
+- **ECO050:** 24 de 24 obras com algum valor, mas o valor do leilão é só de grupo.
+- **Cerrado:** 53 de 71 obras com valor.
+- **Rio Minas:** 0 de 699 obras com valor, porque o portal não publica valor por obra.
+
+## 7. Próximos passos possíveis
+
+1. **Confirmar as OAEs da Cerrado com km diferente em ~0,9:** km 847,8 × ECC-0093 e km 787,7 × ECC-0258. Se forem as mesmas OAEs, incluir em `correspondencias_manuais.csv`.
+2. **Corrigir os valores pelo IPCA** para uma data comum. Hoje cada valor está na sua data-base: 2012, 2016, 2021, 2022 ou sem data-base.
+3. **Cópia local dos PDFs:** fazer o `organizar.py` baixar também os PDFs de referência e criar a coluna `arquivo_local`. Hoje as cópias dependem de `dados/pesquisa_financeiro/`.
+4. **Ligar as obras do PER atualizado da Rio Minas** (seção 3.2) às obras do acompanhamento. Esse documento não tem valores, mas tem a lista de obras.
+5. **Incluir a aba "Planilha base" no `consolidar.py`**, para acompanhar mês a mês a estimativa da concessionária e as datas de início e entrega.
+6. **Preencher o `id_sigicor` da ECO050** a partir dos planejamentos anual e quinquenal.
+7. **Rio Minas:** decidir se vale buscar o valor por obra fora da ANTT, por exemplo no estudo do leilão em BNDES/PPI.
