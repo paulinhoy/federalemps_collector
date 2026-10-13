@@ -12,7 +12,8 @@ O objetivo do projeto, a estrutura e como rodar estão no `README.md`. A situaç
 - Não somar tipos de valor diferentes: `inicial_leilao`, `inicial_inclusao`, `aprovado_revisao`, `estimativa_concessionaria` e `realizado`.
 - Valores transcritos de PDFs vão para `valores_obras/*_manuais.csv`. Ligações obra ↔ valor feitas à mão vão para `correspondencias_manuais.csv`, sempre com a justificativa.
 - Tudo em `dados/` é gerado e fica fora do git.
-- Ordem de execução: `baixar.py` → `consolidar.py` → `organizar.py`.
+- Ordem de execução: `baixar.py` → `consolidar.py` → `organizar.py` → `per_obras/extrair_modelo_eco050.py` → `per_obras/montar_cadastro_eco050.py`.
+- Cadastro de obras (`per_obras/`): uma obra do PER dividida em n linhas guarda `per_id_origem` e `fracao_da_origem`; levar isso em conta ao ligar dados financeiros às obras. Dicionário das colunas em `per_obras/dicionario_colunas.md`.
 
 ## Portal da ANTT (gov.br, Plone)
 - O link de download é o link do item sem o `/view` no final.

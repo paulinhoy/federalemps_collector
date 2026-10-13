@@ -28,6 +28,12 @@ valores_obras/                valores financeiros (Capex, orçamentos, estimativ
   valores_manuais.csv         valores transcritos de PDFs (com página)
   totais_manuais.csv          totais do empreendimento transcritos de PDFs/páginas
   correspondencias_manuais.csv  ligações obra x valor feitas à mão, com justificativa
+per_obras/                    cadastro de todas as obras do PER, com valor do item 4 rateado (por enquanto só ECO050)
+  gerar_per_eco050_manuais.py   gera per_eco050_manuais.csv (obras do PER original, com página)
+  extrair_modelo_eco050.py      item 4 da aba "PER" do modelo econômico-financeiro, por ano e bloco
+  montar_cadastro_eco050.py     cadastro: PER + alterações + acompanhamento + valor rateado
+  alteracoes_eco050.md/.csv     o que mudou desde o PER original (km, realocações, inclusões), com fonte
+  dicionario_colunas.md         dicionário das colunas das tabelas desta pasta
 documentacao/
   acompanhamento_obras.md     regras, tabelas, colunas, resultados, limitações
   valores_obras.md            hierarquia dos valores, tipos de valor, tabelas, resultados
@@ -52,6 +58,8 @@ pip install -r requirements.txt
 python acompanhamento_obras/baixar.py
 python acompanhamento_obras/consolidar.py
 python valores_obras/organizar.py
+python per_obras/extrair_modelo_eco050.py
+python per_obras/montar_cadastro_eco050.py
 ```
 
 O pandas está fixado em 2.3.2: com o pandas 3.0 os scripts quebram por causa da mudança no tipo de string.
@@ -61,4 +69,5 @@ O pandas está fixado em 2.3.2: com o pandas 3.0 os scripts quebram por causa da
 Detalhes:
 - [`documentacao/acompanhamento_obras.md`](documentacao/acompanhamento_obras.md): avanço físico;
 - [`documentacao/valores_obras.md`](documentacao/valores_obras.md): valores financeiros;
+- [`documentacao/cadastro_obras.md`](documentacao/cadastro_obras.md): cadastro de obras da ECO050 e rateio do item 4;
 - [`documentacao/checkpoint_financeiro.md`](documentacao/checkpoint_financeiro.md): situação atual e próximos passos.

@@ -28,6 +28,9 @@ FONTES = {
         documento="Acompanhamento abr/2026 - EMG_Acompanhamento de Obras_ABRIL_26.xlsx, aba Planilha base",
         url=f"{BASE}/eco050/{ACOMP}/2026/execucao_mensal___04-2026minasgoias.zip"),
     # ---- PDFs e páginas (valores transcritos à mão, com página)
+    "eco050_per_original": dict(
+        id_empreendimento=104, documento="PER original do contrato (Programa de Exploração da Rodovia), per-original.pdf: itens 3.2.1, 3.2.3 e Apêndices A e B",
+        url=f"{BASE}/eco050/documentos-de-gestao/contrato-e-anexos/anexos-do-contrato/per-original.pdf"),
     "eco050_nt_gegir_2023": dict(
         id_empreendimento=104, documento="Nota Técnica GEGIR complementar pós-manifestação (8ª Revisão Ordinária, 2023)",
         url=f"{BASE}/eco050/revisao-e-reajuste-da-tarifa-de-pedagio/2023/nota-tecnica-gegir-complementar-pos-manifestacao.pdf"),
