@@ -32,6 +32,7 @@ per_obras/                    cadastro de todas as obras do PER, com valor do it
   gerar_per_eco050_manuais.py   gera per_eco050_manuais.csv (obras do PER original, com página)
   extrair_modelo_eco050.py      item 4 da aba "PER" do modelo econômico-financeiro, por ano e bloco
   montar_cadastro_eco050.py     cadastro: PER + alterações + acompanhamento + valor rateado
+  acompanhamento_financeiro_eco050.py  financeiro: valor x % previsto/executado por mês (fin_mensal, fin_acumulado, fin_resumo)
   alteracoes_eco050.md/.csv     o que mudou desde o PER original (km, realocações, inclusões), com fonte
   dicionario_colunas.md         dicionário das colunas das tabelas desta pasta
 documentacao/
@@ -60,6 +61,7 @@ python acompanhamento_obras/consolidar.py
 python valores_obras/organizar.py
 python per_obras/extrair_modelo_eco050.py
 python per_obras/montar_cadastro_eco050.py
+python per_obras/acompanhamento_financeiro_eco050.py
 ```
 
 O pandas está fixado em 2.3.2: com o pandas 3.0 os scripts quebram por causa da mudança no tipo de string.

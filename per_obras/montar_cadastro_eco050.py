@@ -47,7 +47,7 @@ FONTE_PA = "PA2026 Rev02 L{}"
 COLUNAS = ["id_obra", "id_empreendimento", "nome", "tipo_intervencao", "bloco", "item_per", "rodovia", "uf",
            "municipio", "km_inicial", "km_final", "extensao_km", "quantidade", "unidade", "km_per_original",
            "data_inicio_prevista", "data_termino_prevista", "fonte_datas_previstas", "prazo_contratual",
-           "data_inicio_real", "data_conclusao_real", "fonte_datas_reais", "situacao", "item_modelo",
+           "data_inicio_real", "data_conclusao_real", "fonte_datas_reais", "situacao", "fonte_situacao", "item_modelo",
            "valor_grupo_bloco", "soma_pesos_grupo", "peso", "valor", "metodo_valor", "data_base", "fonte_id",
            "localizacao_valor", "per_id_origem", "fracao_da_origem", "origem", "fonte_alteracao",
            "obra_id_acompanhamento", "id_sigicor", "a_confirmar", "observacao"]
@@ -357,6 +357,18 @@ def main():
             s = "sem_local_definido"
         else:
             s = "nao_iniciada"
+        ln["fonte_situacao"] = "PA2026/marcos"
+        if obras and ln["bloco"] != "condicionada":
+            # com série no acompanhamento, a situação vem do último mês da série principal
+            # (mesmo critério do financeiro: duplicação própria; senão a de dados mais recentes)
+            cand = obras
+            if ln["tipo_intervencao"] == "duplicacao":
+                d = [o for o in obras if o.descricao.lower().startswith("duplica")]
+                cand = d if len(d) == 1 else obras
+            pr = sorted(cand, key=lambda o: (o.ultima_ref, int(o.n_snapshots or 0)), reverse=True)[0]
+            ex = float(pr.pct_executado_ultimo or 0)
+            s = "concluida" if ex >= 0.99 else "em_andamento" if ex > 0 else "nao_iniciada"
+            ln["fonte_situacao"] = f"acompanhamento {pr.ultima_ref}"
         ln["situacao"] = s
 
     # ---- 7. valor: rateio do grupo (item_modelo x bloco) do modelo

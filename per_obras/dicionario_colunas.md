@@ -15,8 +15,11 @@ Convenções gerais: CSVs com `;` e UTF-8 com BOM. Datas em ISO, às vezes só `
 | 7 | `dados/per_obras/modelo_item4_eco050_anual.csv` | saída | `extrair_modelo_eco050.py` | conferências |
 | 8 | `dados/per_obras/modelo_item4_eco050_grupos.csv` | saída | `extrair_modelo_eco050.py` | `montar_cadastro` |
 | 9 | `dados/per_obras/cadastro_obras_eco050.csv` (+ `.xlsx`) | saída final | `montar_cadastro_eco050.py` | carga no banco, ligação com o financeiro |
+| 10 | `dados/per_obras/fin_mensal_eco050.csv` | saída | `acompanhamento_financeiro_eco050.py` | análises mensais, correção por índice |
+| 11 | `dados/per_obras/fin_acumulado_eco050.csv` | saída | `acompanhamento_financeiro_eco050.py` | obras sem série mensal |
+| 12 | `dados/per_obras/fin_resumo_eco050.csv` | saída | `acompanhamento_financeiro_eco050.py` | totais e conferência por mês |
 
-Ordem: `baixar.py` → `consolidar.py` → `valores_obras/organizar.py` (baixa o modelo) → `per_obras/gerar_per_eco050_manuais.py` (só se o PER for retranscrito) → `per_obras/extrair_modelo_eco050.py` → `per_obras/montar_cadastro_eco050.py` (para com erro se o rateio não fechar). `dados/` é gerado e fica fora do git.
+Ordem: `baixar.py` → `consolidar.py` → `valores_obras/organizar.py` (baixa o modelo) → `per_obras/gerar_per_eco050_manuais.py` (só se o PER for retranscrito) → `per_obras/extrair_modelo_eco050.py` → `per_obras/montar_cadastro_eco050.py` (para com erro se o rateio não fechar) → `per_obras/acompanhamento_financeiro_eco050.py` (tabelas 10 a 12; gera também `fin_eco050.xlsx`, uma aba por tabela). `dados/` é gerado e fica fora do git.
 
 ---
 
@@ -57,7 +60,8 @@ Ordem: `baixar.py` → `consolidar.py` → `valores_obras/organizar.py` (baixa o
 | data_inicio_real | data | início executado (PA2026) | 2022-09 |
 | data_conclusao_real | data | liberação ao tráfego (marcos, alteracoes ou PA2026); pode ser só ano | 2024-07-30; 2026 |
 | fonte_datas_reais | texto | documento, página e marco usados | `Relatório mensal 12/2025 p.14,18 (...)` |
-| situacao | categ. | estado atual | concluida (53), sem_local_definido (14), em_andamento (14), condicionada_nao_acionada (7), nao_iniciada (1) |
+| situacao | categ. | estado atual | concluida (61), sem_local_definido (12), condicionada_nao_acionada (7), em_andamento (6), nao_iniciada (3) |
+| fonte_situacao | categ. | de onde veio a `situacao`: com série no acompanhamento, o último mês da série principal (executado ≥ 0,99 = concluida; > 0 = em_andamento; 0 = nao_iniciada); sem série, a regra de PA2026/marcos | `acompanhamento 2026-04`, `PA2026/marcos` |
 | item_modelo | texto | item do modelo (item 4); vazio nas Extra-PER | 4.1.1.1 passarelas (9), 4.1.1.2 marginais (7), 4.1.2.3.1 acessos (10), 4.1.2.3.2 interseções (37), 4.1.2.4.2 duplicação (16), 4.2.2 faixas adicionais (7) |
 | valor_grupo_bloco | R$ | valor do grupo (item × bloco) no modelo, soma dos anos | 647559986.56 |
 | soma_pesos_grupo | número | soma dos `peso` do grupo (km ou unidades) | 218.5 |
@@ -219,3 +223,98 @@ Ordem: `baixar.py` → `consolidar.py` → `valores_obras/organizar.py` (baixa o
 | prev_cum_final | fração 0-1 | % previsto acumulado ao fim do período | 1.0, 0.0 |
 | exec_ini / exec_fim | data | executado, mesmo formato | 2022-09 |
 | exec_cum_final | fração 0-1 | % executado acumulado | 0.9895 |
+
+---
+
+## 10. `fin_mensal_eco050.csv`
+
+1 linha por obra do cadastro com série no acompanhamento × mês de referência: 600 linhas (28 linhas do cadastro × 24 meses; 25 do item 4 e os 3 retornos Extra-PER). Gerada por `acompanhamento_financeiro_eco050.py`. Valores **nominais**, sem correção por índice. Chave: `id_obra` + `mes_ref`. Meses: mar/2024 a abr/2026, sem mai/2024 e jul/2024 (sem arquivo na ANTT). Os retornos Extra-PER só aparecem de jan a mar/2025.
+
+### Regras de uso
+
+- **O % é da obra inteira.** O executado acumulado da fonte é contínuo na virada do ano de concessão (conferido em EMG-0003, 0007, 0013, 0014 e 0019); não há rebase. Os desvios entre o delta do acumulado e o `no_mes` são revisões retroativas da fonte.
+- **Previsto oficial do mês** é o do arquivo daquele mês (visão da época). É um plano por ano de concessão: reprograma o que faltou e pode cair de um mês para o outro (ex.: jun/2025). O previsto do arquivo mais recente vai em `pct_previsto_acum_ultimo_arquivo`.
+- **Valor no mês** = `valor_nominal` × `pct_*_mes`. **Acumulado** = `valor_nominal` × `pct_*_acum`. Nunca somar `tipo_valor` diferentes.
+- **`pct_previsto_mes` vazio** em jan a mar/2026: a fonte não traz o plano mensal de 2026. O valor correspondente também fica vazio.
+- **Série principal.** Uma linha do cadastro pode ligar a várias séries; só a principal gera valor. Duplicação: a série "Duplicação" da própria obra (EMG-0001, EMG-0003). Em duplicatas: a de dados mais recentes. As demais ficam em `series_ligadas`. Uma série para várias linhas (DUP-11-b e DUP-12-a, EMG-0003): cada linha aplica o mesmo % ao seu valor.
+- **Datas reais** são da obra (iguais em todas as linhas dela). Início = 1º mês de referência com executado > 0. Se já havia avanço no 1º mês em que a obra aparece, `inicio_antes_da_serie` = True e a data fica vazia (o início do cadastro não é usado aqui). Término = 1º mês com executado >= 0,99; `data_conclusao_real` do cadastro prevalece (pode ser só o ano).
+- **Acumulado que cai.** Algumas séries têm executado acumulado menor que o do mês anterior (EMG-0019 e EMG-0020 em ago/2025). Mantido como na fonte.
+
+| coluna | tipo | descrição | exemplo / valores possíveis |
+|---|---|---|---|
+| id_obra | texto | chave da linha do cadastro (tabela 9) | `EMG-PER-DUP-11-b` |
+| obra_id_acompanhamento | texto | série principal usada (uma só) | EMG-0003 |
+| serie_principal | booleano | sempre True; as outras séries não geram linha | True |
+| mes_ref | texto | mês de referência `AAAA-MM` | 2025-03 |
+| snapshot | texto | arquivo da ANTT daquele mês | EMG-2025-03-14 |
+| pct_previsto_acum | fração 0-1 | previsto acumulado, visão do arquivo do mês | 0.8494 |
+| pct_executado_acum | fração 0-1 | executado acumulado, obra inteira | 0.7881 |
+| pct_previsto_mes | fração 0-1 | previsto no próprio mês; vazio em jan a mar/2026 | 0.0415 |
+| pct_executado_mes | fração 0-1 | executado no próprio mês | 0.0274 |
+| pct_previsto_acum_ultimo_arquivo | fração 0-1 | previsto acumulado do mês segundo o arquivo mais recente em que a obra aparece: anos anteriores + soma dos previstos mensais dele até o mês | 0.7881 |
+| valor_nominal | R$ | valor da linha, nominal. Item 4: `valor` do cadastro. Extra-PER: `aprovado_revisao`, só a obra (sem a parcela de projetos) | 11084093.13 |
+| tipo_valor | categ. | tipo do `valor_nominal` | inicial_leilao (25 linhas do cadastro), aprovado_revisao (3) |
+| data_base | texto | data-base do valor | `não informada (contrato: mai/2012)`, `2022-04` |
+| valor_previsto_mes | R$ | `valor_nominal` × `pct_previsto_mes` | |
+| valor_executado_mes | R$ | `valor_nominal` × `pct_executado_mes` | |
+| valor_previsto_acum | R$ | `valor_nominal` × `pct_previsto_acum` | |
+| valor_executado_acum | R$ | `valor_nominal` × `pct_executado_acum` | |
+| situacao_fonte | categ. | situação no arquivo do mês | ATRASADA, ADIANTADA, CONFORME PLANEJAMENTO, NÃO INICIADA, CONCLUÍDA |
+| revisao_negativa | bool | True quando o executado acumulado do mês é menor que o do mês anterior (executado no mês negativo); o valor fica como na fonte | True/False |
+| data_inicio_prevista / data_termino_prevista | data | do cadastro (PA2026 Rev02; `AAAA` ou `AAAA-MM`); vazias nos Extra-PER | 2016-07 |
+| data_inicio_real | data | início segundo a série (ver regra); vazia se `inicio_antes_da_serie` ou não iniciada | 2024-04 |
+| data_termino_real | data | término (ver regra); vazia se não concluída | 2024-07-30; 2026 |
+| metodo_data_inicio | categ. | origem da data de início | serie_1o_mes_exec_positivo, serie_1o_mes_exec_positivo_apos_lacuna (mês anterior sem arquivo), nao_observado_antes_da_serie, nao_iniciada_na_serie |
+| metodo_data_termino | categ. | origem da data de término | cadastro_data_conclusao_real, serie_1o_mes_exec_ge_0.99, nao_concluida_na_serie |
+| inicio_antes_da_serie | booleano | já havia avanço > 0 no 1º mês em que a obra aparece | False |
+| fonte_id | texto | fonte do valor, cadastrada em `valores_obras/fontes.py` | eco050_evtea_modelo, eco050_nt_gegir_2023 |
+| localizacao_valor | texto | onde está o valor (aba/célula, ou `valor_id` e página) | `EMG-NT2023-T25-OBRA: p.15, Tabela 25` |
+| series_ligadas | texto | todas as séries ligadas à linha no cadastro, separadas por `\|` | `EMG-0003\|EMG-0004\|EMG-0027\|EMG-0028` |
+| criterio_serie_principal | categ. | por que esta série é a principal | unica, duplicacao_propria_obra, dados_mais_recentes |
+
+---
+
+## 11. `fin_acumulado_eco050.csv`
+
+1 linha por obra do cadastro **sem** série no acompanhamento: 61 linhas. Gerada por `acompanhamento_financeiro_eco050.py`. Sem evolução mensal: concluída antes de mar/2024 conta como 100% executada; as demais, 0%. Todas são do item 4 (`inicial_leilao`).
+
+| coluna | tipo | descrição | exemplo / valores possíveis |
+|---|---|---|---|
+| id_obra | texto | chave (tabela 9) | EMG-PER-DUP-02 |
+| nome | texto | descrição da obra | |
+| tipo_registro | categ. | motivo de não ter série | concluida_antes_serie (42), sem_local_a_alocar (12), condicionada_nao_acionada (7), nao_iniciada_sem_serie (0) |
+| situacao | categ. | situação no cadastro | concluida, sem_local_definido, condicionada_nao_acionada |
+| data_inicio_real / data_termino_real | data | do cadastro (`data_inicio_real`, `data_conclusao_real`); podem vir só com o ano ou vazias | 2018; 2017-06-30 |
+| data_inicio_prevista / data_termino_prevista | data | do cadastro (PA2026 Rev02) | |
+| pct_executado | fração 0-1 | 1 se concluída, 0 se não | 1.0 |
+| valor_nominal | R$ | `valor` do cadastro | 37045774.81 |
+| valor_executado | R$ | `valor_nominal` se concluída, senão 0 | |
+| valor_a_executar | R$ | 0 se concluída, senão `valor_nominal` | |
+| tipo_valor | categ. | tipo do valor | inicial_leilao |
+| data_base | texto | data-base | `não informada (contrato: mai/2012)` |
+| fonte_id / localizacao_valor | texto | fonte e células da aba PER do modelo | eco050_evtea_modelo |
+
+---
+
+## 12. `fin_resumo_eco050.csv`
+
+1 linha por mês de referência × `tipo_valor`: 48 linhas (24 meses × inicial_leilao e aprovado_revisao). Gerada por `acompanhamento_financeiro_eco050.py`. Cada tipo é somado isoladamente.
+
+- Executado das obras com série = soma de `valor_executado_acum` no mês. Obra sem linha no mês (ainda não apareceu: conta 0; já saiu da fonte: mantém o último executado) entra em `n_linhas_serie_sem_dado_no_mes`.
+- Conferência de `inicial_leilao`: executado com série + executado das concluídas antes da série + a executar + 4.3 projetos (não rateado) = R$ 1.145.919.554,57 em todo mês, com `valor_a_executar` >= 0. Se divergir, o script termina com erro.
+
+| coluna | tipo | descrição | exemplo / valores possíveis |
+|---|---|---|---|
+| mes_ref | texto | mês de referência | 2026-04 |
+| snapshot | texto | arquivo da ANTT do mês | EMG-2026-04-23 |
+| tipo_valor | categ. | tipo somado | inicial_leilao, aprovado_revisao |
+| n_linhas_com_serie | inteiro | linhas do cadastro com série deste tipo | 25 |
+| n_linhas_serie_sem_dado_no_mes | inteiro | dessas, as sem linha no mês | 0 |
+| valor_total_tipo | R$ | soma de `valor_nominal` do tipo (com e sem série) | 1091351956.74 |
+| valor_executado_acum_com_serie | R$ | executado acumulado das obras com série | |
+| valor_executado_concluidas_antes_serie | R$ | executado das concluídas antes da série (100%) | |
+| valor_a_executar | R$ | `valor_total_tipo` menos os dois executados | |
+| valor_projetos_4_3_nao_rateado | R$ | item 4.3 do modelo; só em `inicial_leilao` | 54567597.84 |
+| soma_conferencia | R$ | executado + concluídas + a executar + 4.3 | |
+| valor_esperado | R$ | 1.145.919.554,57 em `inicial_leilao`; `valor_total_tipo` nos demais | |
+| conferencia | categ. | ok ou divergência (tolerância R$ 0,01) | ok |

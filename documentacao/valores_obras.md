@@ -103,7 +103,7 @@ Onde fica a cópia local:
 
 Também entra o realizado por ano das três concessões, com dados das DFs.
 
-Exemplo de fontes concorrentes (`EMG-0032`, retorno em nível km 196,5):
+Exemplo de fontes concorrentes (`EMG-0031`, retorno em nível km 196,5):
 - **Inicial da inclusão (2015):** R$ 1,89 mi por retorno, a preços de mai/2012.
 - **Aprovado pela ANTT:** R$ 9,51 mi (obra + projeto), a preços de abr/2022 (NT GEGIR 2023, p.15).
 - **Estimativa atual da concessionária:** R$ 13,37 mi, sem data-base.

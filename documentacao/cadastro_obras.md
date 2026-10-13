@@ -21,7 +21,7 @@ Antes disso, o modelo já precisa ter sido baixado por `valores_obras/organizar.
 | `per_obras/obras_extra_per_eco050.csv` | Obras fora do PER (por enquanto só os 3 retornos em nível do acompanhamento), com fonte e página |
 | `per_obras/marcos_liberacao_eco050.csv` | Liberação ao tráfego (Relatório mensal 12/2025) |
 | `per_obras/cronograma_planejamento_anual_2026_eco050.csv` | Datas previstas e executadas, ID SIGICOR (PA2026 Rev02) |
-| `dados/acompanhamento_obras/consolidado/obras.csv` | Obras do acompanhamento (EMG-0001 a EMG-0032) |
+| `dados/acompanhamento_obras/consolidado/obras.csv` | Obras do acompanhamento (EMG-0001 a EMG-0031) |
 
 ## Colunas principais
 
@@ -61,3 +61,21 @@ Quando uma obra do PER vira mais de uma linha, todas guardam o mesmo `per_id_ori
 - Ainda não entraram: pontes, trecho DNIT (1º TA), segmento km 178,35–179,5 (3º TA), duplicação km 77+600 e iluminação (1ª Revisão Quinquenal), acesso Extra-PER km 245,8.
 - Diamante 4 (151,5) e marginal 1 (40–41): localização a definir. Marginais 3, 4 e 6 ficaram fora do cadastro (saldos remanejados), sem aditivo localizado.
 - Catalão: a conclusão de 2026 vem da ata de 14/05/2026, sem o dia. Os dispositivos de Catalão seguem `em_andamento` (PA2026/acompanhamento abr/2026).
+
+## Acompanhamento financeiro (cadastro × % físico mensal)
+
+`per_obras/acompanhamento_financeiro_eco050.py` cruza o cadastro com o acompanhamento mensal da ANTT (obra × mês) e gera `fin_mensal_eco050.csv`, `fin_acumulado_eco050.csv` e `fin_resumo_eco050.csv` (mais `fin_eco050.xlsx`) em `dados/per_obras/`. Colunas em `per_obras/dicionario_colunas.md` (tabelas 10 a 12).
+
+```
+python per_obras/acompanhamento_financeiro_eco050.py    # depois de montar_cadastro_eco050.py
+```
+
+Regras:
+- Valores nominais, sem correção por índice: cada linha guarda `valor_nominal`, `tipo_valor` e `data_base` (item 4 = `inicial_leilao`, data-base "não informada (contrato: mai/2012)"; retornos Extra-PER = `aprovado_revisao`, 2022-04, só a parcela de obra). Tipos diferentes nunca se somam.
+- O % executado da fonte é da obra inteira e contínuo na virada do ano de concessão (o script imprime a checagem). Valor no mês = valor × Δ%; acumulado = valor × % acumulado.
+- Previsto de cada mês = o do arquivo daquele mês; o do arquivo mais recente fica em `pct_previsto_acum_ultimo_arquivo`.
+- Série principal por linha do cadastro (`serie_principal`, `criterio_serie_principal`): a da própria obra (duplicação EMG-0003, EMG-0001); em duplicatas, a de dados mais recentes. As outras ficam em `series_ligadas` e não geram valor. Uma série para várias linhas (DUP-11-b e DUP-12-a): cada uma aplica o mesmo % ao seu valor.
+- Datas reais: início = 1º mês com executado > 0; término = 1º mês com executado >= 0,99 (`TERMINO_MIN` no topo do script); `data_conclusao_real` do cadastro prevalece. Obra com avanço no 1º mês em que aparece: `inicio_antes_da_serie` = True e início vazio.
+- Obras do cadastro sem série (`fin_acumulado`): concluídas antes da série (100% executadas), sem local a alocar, condicionadas não acionadas.
+- Conferência em `fin_resumo`: executado + a executar + 4.3 projetos = R$ 1.145.919.554,57 em todo mês de `inicial_leilao`; o script termina com erro se divergir.
+- Séries ligadas ao cadastro e sem uso (não principais): EMG-0002, 0004, 0018, 0027, 0028.

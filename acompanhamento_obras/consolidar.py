@@ -373,13 +373,20 @@ def indicadores(o: dict, ref: str, blocos_meses: dict, rotulos: dict) -> dict:
     }
 
 
+# Tolerância (km) do km inicial para os vínculos 'exata' e 'similaridade': obras com a mesma descrição em pontos
+# diferentes da rodovia (ex.: dois "Trevo Tipo Diamante") não podem ser fundidas. 1,5 km absorve a fonte reescrevendo (ex.: marginal Sul 98,0 ↔ 96,8)
+# o km da mesma obra por alguns meses.
+TOL_KM_VINCULO = 1.5
+
+
 def vincular_obras(ob: pd.DataFrame) -> dict:
     """Dá um obra_id estável para cada (snapshot, chave), percorrendo os snapshots em ordem cronológica.
     A concessionária reescreve descrições e às vezes troca o código do item PER entre meses, então a ligação
     tenta, nesta ordem, contra obras já conhecidas que ainda não apareceram no snapshot:
-      1. 'exata'               mesma chave (item PER + descrição normalizada) já vista antes;
+      1. 'exata'               mesma chave (item PER + descrição normalizada) já vista antes, com km inicial
+                               compatível (±TOL_KM_VINCULO) quando os dois lados têm km;
       2. 'km'                  mesmo item PER, km inicial e final iguais (±50 m); entre várias, a de descrição mais parecida;
-      3. 'similaridade'        mesmo item PER, descrição ≥ 85% parecida;
+      3. 'similaridade'        mesmo item PER, descrição ≥ 85% parecida e km inicial compatível (±TOL_KM_VINCULO);
       4. 'item_per_alterado'   outro item PER, descrição ≥ 93% parecida e km compatível (ou ambos sem km);
       senão                    'nova' obra.
     Devolve {(snapshot, chave): (obra_id, metodo)}."""
@@ -388,6 +395,13 @@ def vincular_obras(ob: pd.DataFrame) -> dict:
             vazio_x, vazio_y = x != x or x is None, y != y or y is None
             return (vazio_x and vazio_y) or (not vazio_x and not vazio_y and abs(x - y) <= 0.05)
         return igual(a.km_inicial, r.km_inicial) and igual(a.km_final, r.km_final)
+
+    def km_perto(a, r):
+        """Km inicial compatível; sem km em um dos lados não restringe."""
+        x, y = a.km_inicial, r.km_inicial
+        if x != x or x is None or y != y or y is None:
+            return True
+        return abs(x - y) <= TOL_KM_VINCULO
 
     def parecido(a, r):
         return SequenceMatcher(None, norm(a.descricao or ""), norm(r.descricao or "")).ratio()
@@ -401,7 +415,7 @@ def vincular_obras(ob: pd.DataFrame) -> dict:
             usados, pendentes = set(), []
             for r in h.itertuples(index=False):
                 oid = por_chave.get(r.chave)
-                if oid and oid not in usados:
+                if oid and oid not in usados and km_perto(registro[oid], r):
                     usados.add(oid)
                     res[(snap, r.chave)] = (oid, "exata")
                     registro[oid] = r
@@ -417,7 +431,7 @@ def vincular_obras(ob: pd.DataFrame) -> dict:
                     if por_km:
                         escolha, metodo = max(por_km)[1], "km"
                 if not escolha:
-                    melhor = max(((parecido(a, r), oid) for oid, a in mesmo_item), default=(0, None))
+                    melhor = max(((parecido(a, r), oid) for oid, a in mesmo_item if km_perto(a, r)), default=(0, None))
                     if melhor[0] >= 0.85:
                         escolha, metodo = melhor[1], "similaridade"
                 if not escolha:
