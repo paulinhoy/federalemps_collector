@@ -79,3 +79,12 @@ Regras:
 - Obras do cadastro sem série (`fin_acumulado`): concluídas antes da série (100% executadas), sem local a alocar, condicionadas não acionadas.
 - Conferência em `fin_resumo`: executado + a executar + 4.3 projetos = R$ 1.145.919.554,57 em todo mês de `inicial_leilao`; o script termina com erro se divergir.
 - Séries ligadas ao cadastro e sem uso (não principais): EMG-0002, 0004, 0018, 0027, 0028.
+
+## Pontos para discutir depois (ECO050)
+
+1. **Regra das datas reais.** Hoje o início é o 1º mês com executado > 0 e o término é o 1º mês com executado >= 99% (ou a data oficial, quando existe). As 15 obras que já tinham avanço em mar/2024 ficam com o início vazio (`inicio_antes_da_serie`). Falta decidir o limiar do término e o que fazer com o início anterior à série.
+2. **Correção monetária.** Os valores estão nominais, cada um na sua data-base (item 4: mai/2012; retornos: abr/2022). A correção pelo IPCA fica para as operações nas tabelas principais.
+3. **Peso do rateio.** Hoje o peso é igual dentro do grupo (ou km). A coluna `peso` já existe para receber outro critério, por exemplo o custo unitário por tipo.
+4. **Obras com `a_confirmar` (7)**, entre elas o diamante 4 e a marginal 1, que estão como "não iniciadas" e sem local definido.
+5. **Quedas no executado (`revisao_negativa`, 9 linhas em 7 obras).** Decidir se mantemos o valor negativo do mês ou se suavizamos a série.
+6. **Obras fora do PER** ainda não incluídas (lista em "Pendências").
