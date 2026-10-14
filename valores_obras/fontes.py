@@ -20,6 +20,10 @@ FONTES = {
         id_empreendimento=103, baixar=True, membros=["*Acompanhamento de Obras*.xlsx"],
         documento="Acompanhamento abr/2026 - ECC_Acompanhamento de Obras_ABRIL_26.xlsx, aba Planilha base",
         url=f"{BASE}/ecovias-do-cerrado/{ACOMP}/2026/execucao_mensal___04-2026cerrado.zip"),
+    "ecc_leilao_modelo": dict(
+        id_empreendimento=103, baixar=True, membros=["*.xlsb"],
+        documento="Edital do leilão - modelo-economico-financeiro-ecovias-do-cerrado.zip (Modelo Econômico-Financeiro - ECOVIAS DO CERRADO.xlsb, aba PER)",
+        url=f"{BASE}/ecovias-do-cerrado/documentos-de-gestao/processo-de-licitacao/edital-e-anexos/modelo-economico-financeiro-ecovias-do-cerrado.zip"),
     "eco050_evtea_modelo": dict(
         id_empreendimento=104, baixar=True, documento="Estudos indicativos do leilão - modelo-economico-financeiro-eco-050.xlsx (aba PER)",
         url=f"{BASE}/eco050/documentos-de-gestao/processo-de-licitacao/modelo-economico-financeiro-eco-050.xlsx"),
@@ -31,6 +35,12 @@ FONTES = {
     "eco050_per_original": dict(
         id_empreendimento=104, documento="PER original do contrato (Programa de Exploração da Rodovia), per-original.pdf: itens 3.2.1, 3.2.3 e Apêndices A e B",
         url=f"{BASE}/eco050/documentos-de-gestao/contrato-e-anexos/anexos-do-contrato/per-original.pdf"),
+    "ecc_per_original": dict(
+        id_empreendimento=103, documento="PER original do contrato (Edital nº 01/2019), per-original.pdf: item 3.2",
+        url=f"{BASE}/ecovias-do-cerrado/documentos-de-gestao/contrato-e-anexos-1/anexos-do-contrato/per-original.pdf"),
+    "ecc_per_atualizado": dict(
+        id_empreendimento=103, documento="PER atualizado (redação do 2º TA, Deliberação 353/2024), per-atualizado.pdf: item 3.2, pp.36-48",
+        url=f"{BASE}/ecovias-do-cerrado/documentos-de-gestao/contrato-e-anexos-1/anexos-do-contrato/per-atualizado.pdf"),
     "eco050_nt_gegir_2023": dict(
         id_empreendimento=104, documento="Nota Técnica GEGIR complementar pós-manifestação (8ª Revisão Ordinária, 2023)",
         url=f"{BASE}/eco050/revisao-e-reajuste-da-tarifa-de-pedagio/2023/nota-tecnica-gegir-complementar-pos-manifestacao.pdf"),

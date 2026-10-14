@@ -1,4 +1,8 @@
-# Dicionário de dados: cadastro de obras da ECO050 (id 104, EMG)
+# Dicionário de dados: cadastro de obras (ECO050 e Ecovias do Cerrado)
+
+Primeiro a ECO050 (id 104, EMG; tabelas 1 a 12); a Ecovias do Cerrado (id 103, ECC; tabelas C1 a C9) está no fim. Caminhos das tabelas geradas: `per_obras/caminhos.py`.
+
+# ECO050 (id 104, EMG)
 
 Convenções gerais: CSVs com `;` e UTF-8 com BOM. Datas em ISO, às vezes só `AAAA` ou `AAAA-MM` (precisão da fonte). Valores em R$ (reais, sem separador de milhar). Frações de 0 a 1. Km em número decimal com ponto (nos insumos copiados de planilhas, alguns campos trazem vírgula e texto). **Data-base dos valores do modelo: não informada na planilha; o contrato é de mai/2012.** Contexto e regras de rateio: `documentacao/cadastro_obras.md`.
 
@@ -12,14 +16,14 @@ Convenções gerais: CSVs com `;` e UTF-8 com BOM. Datas em ISO, às vezes só `
 | 4 | `per_obras/obras_extra_per_eco050.csv` | insumo (à mão) | manual | `montar_cadastro` |
 | 5 | `per_obras/marcos_liberacao_eco050.csv` | insumo (transcrito) | manual | `montar_cadastro` |
 | 6 | `per_obras/cronograma_planejamento_anual_2026_eco050.csv` | insumo (transcrito) | manual | `montar_cadastro` |
-| 7 | `dados/per_obras/modelo_item4_eco050_anual.csv` | saída | `extrair_modelo_eco050.py` | conferências |
-| 8 | `dados/per_obras/modelo_item4_eco050_grupos.csv` | saída | `extrair_modelo_eco050.py` | `montar_cadastro` |
-| 9 | `dados/per_obras/cadastro_obras_eco050.csv` (+ `.xlsx`) | saída final | `montar_cadastro_eco050.py` | carga no banco, ligação com o financeiro |
-| 10 | `dados/per_obras/fin_mensal_eco050.csv` | saída | `acompanhamento_financeiro_eco050.py` | análises mensais, correção por índice |
-| 11 | `dados/per_obras/fin_acumulado_eco050.csv` | saída | `acompanhamento_financeiro_eco050.py` | obras sem série mensal |
-| 12 | `dados/per_obras/fin_resumo_eco050.csv` | saída | `acompanhamento_financeiro_eco050.py` | totais e conferência por mês |
+| 7 | `dados/per_obras/intermediario/modelo_item4_eco050_anual.csv` | saída | `extrair_modelo_eco050.py` | conferências |
+| 8 | `dados/per_obras/intermediario/modelo_item4_eco050_grupos.csv` | saída | `extrair_modelo_eco050.py` | `montar_cadastro` |
+| 9 | `dados/finais/cadastro_obras/cadastro_obras_eco050.csv` (+ `.xlsx`) | saída final | `montar_cadastro_eco050.py` | carga no banco, ligação com o financeiro |
+| 10 | `dados/finais/financeiro_mensal/fin_mensal_eco050.csv` | saída | `acompanhamento_financeiro_eco050.py` | análises mensais, correção por índice |
+| 11 | `dados/finais/financeiro_acumulado/fin_acumulado_eco050.csv` | saída | `acompanhamento_financeiro_eco050.py` | obras sem série mensal |
+| 12 | `dados/finais/financeiro_resumo/fin_resumo_eco050.csv` | saída | `acompanhamento_financeiro_eco050.py` | totais e conferência por mês |
 
-Ordem: `baixar.py` → `consolidar.py` → `valores_obras/organizar.py` (baixa o modelo) → `per_obras/gerar_per_eco050_manuais.py` (só se o PER for retranscrito) → `per_obras/extrair_modelo_eco050.py` → `per_obras/montar_cadastro_eco050.py` (para com erro se o rateio não fechar) → `per_obras/acompanhamento_financeiro_eco050.py` (tabelas 10 a 12; gera também `fin_eco050.xlsx`, uma aba por tabela). `dados/` é gerado e fica fora do git.
+Ordem: `baixar.py` → `consolidar.py` → `valores_obras/organizar.py` (baixa o modelo) → `per_obras/gerar_per_eco050_manuais.py` (só se o PER for retranscrito) → `per_obras/extrair_modelo_eco050.py` → `per_obras/montar_cadastro_eco050.py` (para com erro se o rateio não fechar) → `per_obras/acompanhamento_financeiro_eco050.py` (tabelas 10 a 12; gera também `dados/finais/xlsx/fin_eco050.xlsx`, uma aba por tabela; a lógica está em `financeiro_comum.py`). `dados/` é gerado e fica fora do git.
 
 ---
 
@@ -318,3 +322,91 @@ Ordem: `baixar.py` → `consolidar.py` → `valores_obras/organizar.py` (baixa o
 | soma_conferencia | R$ | executado + concluídas + a executar + 4.3 | |
 | valor_esperado | R$ | 1.145.919.554,57 em `inicial_leilao`; `valor_total_tipo` nos demais | |
 | conferencia | categ. | ok ou divergência (tolerância R$ 0,01) | ok |
+
+---
+
+# Ecovias do Cerrado (id 103, ECC)
+
+Mesmas convenções. **Data-base dos valores do modelo e do Fator D: jul/2016** (aba PER do modelo, D5: "DATA-BASE DOS EVTEs: julho/2016"). Regras em `documentacao/cadastro_obras.md` (seção Cerrado).
+
+## Índice e fluxo de geração
+
+| # | Tabela | Tipo | Gerada por | Usada por |
+|---|---|---|---|---|
+| C1 | `per_obras/per_cerrado_manuais.csv` | insumo (transcrito, com página) | `gerar_per_cerrado_manuais.py` | `montar_cadastro_cerrado` |
+| C2 | `per_obras/correspondencias_cadastro_cerrado.csv` | insumo (à mão) | manual | `montar_cadastro_cerrado` |
+| C3 | `per_obras/alteracoes_cerrado.csv` (+ `.md`) | registro (à mão) | manual | consulta (não é lida por script) |
+| C4 | `dados/per_obras/intermediario/modelo_item4_cerrado_anual.csv` | saída | `extrair_modelo_cerrado.py` | conferências |
+| C5 | `dados/per_obras/intermediario/modelo_item4_cerrado_grupos.csv` | saída | `extrair_modelo_cerrado.py` | `montar_cadastro_cerrado`, financeiro |
+| C6 | `dados/finais/cadastro_obras/cadastro_obras_cerrado.csv` (+ `.xlsx`) | saída final | `montar_cadastro_cerrado.py` | carga no banco, financeiro |
+| C7 | `dados/finais/financeiro_mensal/fin_mensal_cerrado.csv` | saída | `acompanhamento_financeiro_cerrado.py` | análises mensais |
+| C8 | `dados/finais/financeiro_acumulado/fin_acumulado_cerrado.csv` | saída | `acompanhamento_financeiro_cerrado.py` | obras sem série |
+| C9 | `dados/finais/financeiro_resumo/fin_resumo_cerrado.csv` | saída | `acompanhamento_financeiro_cerrado.py` | totais e conferência por mês |
+
+Ordem: `consolidar.py` → `valores_obras/organizar.py` → `extrair_modelo_cerrado.py` → `montar_cadastro_cerrado.py` → `acompanhamento_financeiro_cerrado.py` (gera também `dados/finais/xlsx/fin_cerrado.xlsx`).
+
+## C6. `cadastro_obras_cerrado.csv`
+
+332 linhas: 326 de 132 `per_id` (118 obras do PER atualizado + 14 itens de edificações do Fator D, em 28 linhas) e 6 obras do acompanhamento fora do PER (`ECC-EXT-*`). 298 linhas com valor. **Tem as mesmas colunas da ECO050 (tabela 9)**, com estas diferenças de conteúdo:
+
+| coluna | na Cerrado |
+|---|---|
+| id_obra | `ECC-PER-<SIGLA>-nn` (obra do PER), com sufixo `-LD`/`-LE` (lado da marginal), `-a`/`-b` (ano da faixa adicional), `-s01`... (trecho do acompanhamento), `-saldo` (parte sem trecho), `-01`... (unidade). `ECC-EXT-<SIGLA>-nn` = obra do acompanhamento fora do PER. Siglas: DUP, FXA, CMP, MAR, ACO, CTR, ACE, INT, ROT, PAS, RET, ILT, ILM, ILR, ILI (iluminação), DCO e FCO (condicionadas do 3.2.3), EDI (edificações) |
+| tipo_intervencao | duplicacao, faixa_adicional, interconexao_trevo, interconexao_trombeta, via_marginal, acostamento, correcao_tracado, melhoria_acesso, intersecao, rotatoria, passarela, retorno_nivel, iluminacao, praca_pedagio, posto_prf, base_operacional, posto_pesagem, fibra_optica, centro_controle, edificio_sede |
+| bloco | obrigatoria (4.1), condicionada (4.2 e 3.2.3), edificacoes_operacionais (4.3), complementacao_dnit (4.5), iluminacao_recuperacao (sem valor no item 4), extra_per |
+| item_per | 3.2.1.1 a 3.2.1.4, 3.2.3.1, 3.2.3.2; nas edificações, a seção do PER pelo sumário (3.1.7, 3.4.x) |
+| km_inicial / km_final | km atual; a origem está em `fonte_km` |
+| km_per_original | km do PER (`ini-fim`); para acessos, acostamentos e faixas, `TH n: ini-fim` (o PER só dá o trecho homogêneo) |
+| data_*_prevista, data_inicio_real, data_conclusao_real, fonte_datas_* , id_sigicor | vazias (não foram usados planejamentos) |
+| prazo_contratual | ano civil do prazo do PER, supondo ano de concessão 1 = 2020 |
+| situacao | concluida, em_andamento, nao_iniciada (pela série); condicionada_nao_acionada (4.2/3.2.3 sem série); `sem_acompanhamento` (sem série, prazo vencido) |
+| item_modelo | 4.1, 4.2, 4.3, 4.5; vazio = sem valor |
+| peso | = `valor_estudo_obra` (custo do Fator D) |
+| metodo_valor | rateio_por_custo_estudo; peso_igual_sem_custo_no_estudo (não ocorre hoje); vazio sem valor |
+| data_base | 2016-07 |
+| fonte_id | ecc_leilao_modelo |
+| localizacao_valor | linha da aba PER do modelo (`PER!F42:AI42`, total `PER!E42`, anos com valor) |
+| origem | per_original, per_realocada (km do acompanhamento a mais de 1 km do PER/EVTEA, ou TH mudado pelo 2º TA), evtea_fator_d (edificações), acompanhamento_extra |
+| a_confirmar | ver `observacao` e `per_obras/alteracoes_cerrado.csv` |
+
+Colunas novas (só Cerrado, no fim da tabela):
+
+| coluna | tipo | descrição | exemplo |
+|---|---|---|---|
+| subtipo | texto | APS/APD (acesso), RA-1A/RA-2A (rotatória), PPS/PPD (passarela), implantação/adequação (acostamento) | APS |
+| trecho_homogeneo | texto | TH do PER (1 a 19); `2-6-8` nas travessias urbanas | 16 |
+| prazo_per | texto | prazo como escrito no PER | `4º ano` |
+| ano_prazo | inteiro | ano de concessão do prazo (o último, quando há vários) | 4 |
+| fonte_km | texto | de onde vem o km: `acompanhamento ECC-nnnn (mês)`, `PER atualizado p.n`, `EVTEA (RESUMO_OBRAS... aba, linha)`, ou `sem km` | |
+| valor_estudo_obra | R$ | custo da obra no estudo (Fator D), na data-base do estudo. **Não somar com `valor`** (o modelo aplica o REIDI) | 2441722.83 |
+| data_base_estudo | texto | data-base do custo do estudo | 2016-07 |
+| fonte_estudo | texto | fonte do custo | ecc_evtea_fator_d |
+| localizacao_estudo | texto | célula do Fator D e fração/quantidade | `Ampliação!J17 (VM-1 ...) x 1` |
+
+## C1. `per_cerrado_manuais.csv`
+
+143 linhas do PER atualizado (uma por "linha do PER"; 132 `per_id`). Colunas: `per_id`, `id_linha` (id antes de quebrar em unidades/trechos), `fracao_linha` (parte do `per_id`), `secao_per`, `bloco`, `tipo_intervencao`, `subtipo`, `descricao`, `th`, `rodovia`, `uf`, `municipio`, `km_inicial`/`km_final` (km do PER, ou limites do TH), `extensao_km`, `quantidade`, `unidade`, `sentido` (LD/LE), `prazo_per`, `ano_prazo`, `prazo_per_original` (só quando difere do PER original), `km_evtea` e `fonte_km_evtea` (km do RESUMO_OBRAS), `item_modelo`, `fd_linha` (linha da aba Ampliação do Fator D), `fd_modo` (`total` = J × `fd_fracao`; `unitario` = I × quantidade, ou J/H quando não há unitário), `fd_fracao`, `observacao_per`, `pagina` (página do PDF), `documento_fonte` (ecc_per_atualizado; ecc_evtea_fator_d nas edificações).
+
+## C2. `correspondencias_cadastro_cerrado.csv`
+
+1 linha por ligação manual: `id_obra` (linha do cadastro antes da quebra em trechos: o `id_linha`, ou o id da unidade), `obra_id_acompanhamento` (séries ECC separadas por `|`; o grupo inteiro de cada série vai junto), `a_confirmar`, `justificativa`. Numa linha de acostamento ou faixa, a série vira um trecho da linha e o `a_confirmar` vale só para esse trecho.
+
+## C3. `alteracoes_cerrado.csv`
+
+1 linha por mudança ou divergência: `id_obra` (uma ou várias, separadas por `|`), `tipo_alteracao` (prazo, realocacao_th, km_diferente, obra_a_mais, obra_a_menos, inicio_parcial, divergencia_evtea, divergencia_per), `tipo_intervencao`, `descricao`, `km_per`, `km_atual`, `origem_da_informacao` (PER original × atualizado, ou ligação com o acompanhamento), `documento`, `localizacao`, `a_confirmar`, `observacao`.
+
+## C4/C5. `modelo_item4_cerrado_anual.csv` e `_grupos.csv`
+
+Mesmas colunas das tabelas 7 e 8 da ECO050. Diferenças: o ano 1 é uma coluna só (F; anos 1..30 = F..AI); `item` vai de 4.0 (subtotal, linha 41) a 4.5 (linhas 42–46); `parcela` sempre vazia; `bloco` = rótulo do grupo de rateio do subitem (tabela na doc). `_grupos.csv` tem 5 linhas (4.1 a 4.5), `anos` = lista dos anos com valor (ex.: `2,3,4,5,13,14`) e a coluna extra `celula_total` (`PER!E42`).
+
+## C7–C9. Financeiro
+
+Mesmas colunas das tabelas 10 a 12 da ECO050, com estas diferenças:
+- `fin_mensal_cerrado`: 1.443 linhas (177 linhas do cadastro com série × até 21 meses, abr/2024 a abr/2026). Linhas sem valor (iluminação, `ECC-EXT-*`) têm `valor_nominal` e `tipo_valor` vazios. `data_base` = 2016-07.
+- `fin_acumulado_cerrado`: 155 linhas; `tipo_registro` também pode ser `sem_serie_sem_informacao` (situação `sem_acompanhamento`, conta 0% executado).
+- `fin_resumo_cerrado`: 21 linhas (só `inicial_leilao`). A coluna `valor_projetos_4_3_nao_rateado` da ECO050 aqui é `valor_nao_rateado_4_4` (4.4 desapropriações = 0). Conferência: executado + a executar + 4.4 = R$ 717.702.925,02 em todos os meses.
+
+
+# Ecovias Rio Minas (id 105, ERM)
+
+Por enquanto só a ligação PER x acompanhamento, sem valores: `per_riominas_manuais.csv` (688 obras do PER Atualizado, `ERM-PER-<SIGLA>-nn`) e `dados/finais/ligacao_per_acompanhamento/ligacao_per_acompanhamento_riominas.csv` (uma linha por par `per_id` x `obra_id_acompanhamento`; `tipo_ligacao` = `km`, `manual`, `sem_acompanhamento` ou `fora_do_per`). Colunas, regras e pendências em [`ligacao_riominas.md`](ligacao_riominas.md).

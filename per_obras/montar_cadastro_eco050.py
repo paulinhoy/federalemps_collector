@@ -12,9 +12,9 @@ Insumos versionados (per_obras/):
     obras_extra_per_eco050.csv           obras fora do PER que estão no acompanhamento
     marcos_liberacao_eco050.csv          liberação ao tráfego (Relatório mensal 12/2025)
     cronograma_planejamento_anual_2026_eco050.csv  datas previstas/executadas e ID SIGICOR (PA2026 Rev02)
-Insumos gerados (dados/): acompanhamento_obras/consolidado/obras.csv; per_obras/modelo_item4_eco050_*.csv
+Insumos gerados (dados/): acompanhamento_obras/consolidado/obras.csv; per_obras/intermediario/modelo_item4_eco050_*.csv
 
-Saída: dados/per_obras/cadastro_obras_eco050.csv (sep ';', UTF-8 BOM) e .xlsx. Regras em documentacao/cadastro_obras.md.
+Saída: dados/finais/cadastro_obras/cadastro_obras_eco050.csv (sep ';', UTF-8 BOM) e .xlsx. Regras em documentacao/cadastro_obras.md.
 """
 import re
 import sys
@@ -23,9 +23,12 @@ from pathlib import Path
 import pandas as pd
 
 AQUI = Path(__file__).resolve().parent
+sys.path.insert(0, str(AQUI))
+from caminhos import caminho_final, caminho_modelo  # noqa: E402
+
 PROJETO = AQUI.parent
 DADOS = PROJETO / "dados"
-SAIDA = DADOS / "per_obras"
+SAIDA_CSV = caminho_final("cadastro_obras", "eco050", "csv")
 ID_EMP = 104
 TOTAL_ITEM4 = 1145919554.57
 FONTE_MODELO = "eco050_evtea_modelo"
@@ -144,11 +147,11 @@ def main():
     ext = ler(AQUI / "obras_extra_per_eco050.csv")
     marcos = ler(AQUI / "marcos_liberacao_eco050.csv")
     pa = ler(AQUI / "cronograma_planejamento_anual_2026_eco050.csv")
-    arq_grupos = SAIDA / "modelo_item4_eco050_grupos.csv"
+    arq_grupos = caminho_modelo("eco050", "grupos")
     if not arq_grupos.exists():
         sys.exit("Rode antes: python per_obras/extrair_modelo_eco050.py")
     grupos = ler(arq_grupos)
-    anual = ler(SAIDA / "modelo_item4_eco050_anual.csv")
+    anual = ler(caminho_modelo("eco050", "anual"))
     acomp = ler(DADOS / "acompanhamento_obras" / "consolidado" / "obras.csv")
     acomp = acomp[acomp.id_empreendimento == str(ID_EMP)].set_index("obra_id", drop=False)
 
@@ -406,12 +409,11 @@ def main():
     df = df.sort_values(["_o", "item_per", "tipo_intervencao", "km_inicial", "id_obra"], na_position="last")
     out = df.reindex(columns=COLUNAS)
 
-    SAIDA.mkdir(parents=True, exist_ok=True)
-    out.to_csv(SAIDA / "cadastro_obras_eco050.csv", sep=";", index=False, encoding="utf-8-sig", decimal=".")
-    out.to_excel(SAIDA / "cadastro_obras_eco050.xlsx", index=False, sheet_name="cadastro_eco050")
+    out.to_csv(SAIDA_CSV, sep=";", index=False, encoding="utf-8-sig", decimal=".")
+    out.to_excel(SAIDA_CSV.with_suffix(".xlsx"), index=False, sheet_name="cadastro_eco050")
 
     # ---- 8. conferências
-    print(f"Cadastro: {len(out)} linhas -> {SAIDA / 'cadastro_obras_eco050.csv'}")
+    print(f"Cadastro: {len(out)} linhas -> {SAIDA_CSV}")
     print("Por tipo:", out.tipo_intervencao.value_counts().to_dict())
     print("Por situação:", out.situacao.value_counts().to_dict())
     print("Por bloco:", out.bloco.value_counts().to_dict())

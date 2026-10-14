@@ -5,7 +5,7 @@ da ECO050 (fonte_id eco050_evtea_modelo) e grava, por ano de concessão, os valo
 Uso (depois de valores_obras/organizar.py ter baixado a fonte):
     python per_obras/extrair_modelo_eco050.py
 
-Saída em dados/per_obras/:
+Saída em dados/per_obras/intermediario/ (caminhos em per_obras/caminhos.py):
     modelo_item4_eco050_anual.csv    1 linha por item (folha ou subtotal) x ano de concessão (1..30; ano 1 = F+G)
     modelo_item4_eco050_grupos.csv   1 linha por folha x bloco (valor do bloco e soma de conferência)
 Linhas com coluna A = 'INV' são folhas; as demais são subtotais. Folhas sem código na planilha ficam como
@@ -26,13 +26,14 @@ import pandas as pd
 AQUI = Path(__file__).resolve().parent
 PROJETO = AQUI.parent
 sys.path.insert(0, str(PROJETO / "valores_obras"))
+sys.path.insert(0, str(AQUI))
 from fontes import FONTES  # noqa: E402
+from caminhos import caminho_modelo  # noqa: E402
 
 warnings.filterwarnings("ignore")
 
 FONTE_ID = "eco050_evtea_modelo"
 ARQ = PROJETO / "dados" / "valores_obras" / "fontes" / FONTE_ID / "modelo-economico-financeiro-eco-050.xlsx"
-SAIDA = PROJETO / "dados" / "per_obras"
 DATA_BASE = "não informada (contrato: mai/2012)"
 L_INI, L_FIM = 44, 102
 COL_TOTAL, COL_AK = 5, 37  # E e AK
@@ -102,9 +103,8 @@ def main():
     g["soma_folha"] = g.linha_planilha.map(tot)
     g["fonte_id"] = FONTE_ID
     g["data_base"] = DATA_BASE
-    SAIDA.mkdir(parents=True, exist_ok=True)
-    df.to_csv(SAIDA / "modelo_item4_eco050_anual.csv", sep=";", index=False, encoding="utf-8-sig", decimal=".")
-    g.to_csv(SAIDA / "modelo_item4_eco050_grupos.csv", sep=";", index=False, encoding="utf-8-sig", decimal=".")
+    df.to_csv(caminho_modelo("eco050", "anual"), sep=";", index=False, encoding="utf-8-sig", decimal=".")
+    g.to_csv(caminho_modelo("eco050", "grupos"), sep=";", index=False, encoding="utf-8-sig", decimal=".")
 
     # ---- conferências
     TOL = 0.01
@@ -132,7 +132,7 @@ def main():
         f"ano {a}: {v:,.2f} = {v / fa[a]:.2%} do 4.2.2" for a, v in exc.items()) + f"; total {exc.sum():,.2f}")
     print("Por bloco (folhas):")
     print(g.groupby("bloco").valor_bloco.sum().map("{:,.2f}".format).to_string())
-    print(f"Arquivos em {SAIDA}")
+    print(f"Arquivos em {caminho_modelo('eco050', 'anual').parent}")
 
 
 if __name__ == "__main__":

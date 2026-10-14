@@ -1,0 +1,689 @@
+﻿per_id;secao_per;bloco;tipo_intervencao;descricao;rodovia;uf;km_inicial;km_final;extensao_km;quantidade;unidade;sentido;ano_concessao;observacao_per;pagina;documento_fonte
+ERM-PER-DUP-01;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/RJ - km 0,000 ao km 22,200;BR-116;RJ;0.0;22.2;22.2;22.2;km;;8º;;52;riominas_per_atualizado
+ERM-PER-DUP-02;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/RJ - km 22,200 ao km 22,500;BR-116;RJ;22.2;22.5;0.3;0.3;km;;8º;;52;riominas_per_atualizado
+ERM-PER-DUP-03;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/RJ - km 22,500 ao km 38,000;BR-116;RJ;22.5;38.0;15.5;15.5;km;;8º;;52;riominas_per_atualizado
+ERM-PER-DUP-04;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/RJ - km 38,000 ao km 54,110;BR-116;RJ;38.0;54.11;16.11;16.11;km;;7º;;52;riominas_per_atualizado
+ERM-PER-DUP-05;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/RJ - km 54,110 ao km 57,000;BR-116;RJ;54.11;57.0;2.89;2.89;km;;7º;;52;riominas_per_atualizado
+ERM-PER-DUP-06;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/RJ - km 57,000 ao km 77,900;BR-116;RJ;57.0;77.9;20.9;20.9;km;;6º;;52;riominas_per_atualizado
+ERM-PER-DUP-07;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/RJ - km 77,900 ao km 90,500;BR-116;RJ;77.9;90.5;12.6;12.6;km;;6º;;52;riominas_per_atualizado
+ERM-PER-DUP-08;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/RJ - km 105,185 ao km 105,900;BR-116;RJ;105.185;105.9;0.715;0.715;km;;8º;;52;riominas_per_atualizado
+ERM-PER-DUP-09;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 412,576 ao km 413,315;BR-116;MG;412.576;413.315;0.739;0.739;km;;4º;;52;riominas_per_atualizado
+ERM-PER-DUP-10;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 413,315 ao km 421,627;BR-116;MG;413.315;421.627;8.312;8.312;km;;4º;;52;riominas_per_atualizado
+ERM-PER-DUP-11;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 421,627 ao km 457,470;BR-116;MG;421.627;457.47;35.843;35.843;km;;6º;;52;riominas_per_atualizado
+ERM-PER-DUP-12;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 486,296 ao km 500,111;BR-116;MG;486.296;500.111;13.815;13.815;km;;6º;;52;riominas_per_atualizado
+ERM-PER-DUP-13;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 500,111 ao km 520,517;BR-116;MG;500.111;520.517;20.406;20.406;km;;5º;;52;riominas_per_atualizado
+ERM-PER-DUP-14;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 520,517 ao km 523,531;BR-116;MG;520.517;523.531;3.014;3.014;km;;5º;;52;riominas_per_atualizado
+ERM-PER-DUP-15;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 523,531 ao km 526,621;BR-116;MG;523.531;526.621;3.09;3.09;km;;5º;;52;riominas_per_atualizado
+ERM-PER-DUP-16;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 528,200 ao km 528,345;BR-116;MG;528.2;528.345;0.145;0.145;km;;5º;;52;riominas_per_atualizado
+ERM-PER-DUP-17;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 528,345 ao km 562,300;BR-116;MG;528.345;562.3;33.955;33.955;km;;7º;;52;riominas_per_atualizado
+ERM-PER-DUP-18;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 702,800 ao km 703,136;BR-116;MG;702.8;703.136;0.336;0.336;km;;7º;;52;riominas_per_atualizado
+ERM-PER-DUP-19;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 703,136 ao km 704,310;BR-116;MG;703.136;704.31;1.174;1.174;km;;6º;;52;riominas_per_atualizado
+ERM-PER-DUP-20;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 704,310 ao km 737,257;BR-116;MG;704.31;737.257;32.947;32.947;km;;7º;;53;riominas_per_atualizado
+ERM-PER-DUP-21;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 737,257 ao km 745,457;BR-116;MG;737.257;745.457;8.2;8.2;km;;7º;;53;riominas_per_atualizado
+ERM-PER-DUP-22;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 745,457 ao km 765,760;BR-116;MG;745.457;765.76;20.303;20.303;km;;8º;;53;riominas_per_atualizado
+ERM-PER-DUP-23;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 765,760 ao km 773,000;BR-116;MG;765.76;773.0;7.24;7.24;km;;8º;;53;riominas_per_atualizado
+ERM-PER-DUP-24;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 814,364 ao km 815,050;BR-116;MG;814.364;815.05;0.686;0.686;km;;8º;;53;riominas_per_atualizado
+ERM-PER-DUP-25;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-116/MG - km 815,050 ao km 816,944;BR-116;MG;815.05;816.944;1.894;1.894;km;;8º;;53;riominas_per_atualizado
+ERM-PER-DUP-26;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-493/RJ - km 0,000 ao km 0,800;BR-493;RJ;0.0;0.8;0.8;0.8;km;;4º;;53;riominas_per_atualizado
+ERM-PER-DUP-27;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-493/RJ - km 5,300 ao km 15,600;BR-493;RJ;5.3;15.6;10.3;10.3;km;;4º;;53;riominas_per_atualizado
+ERM-PER-DUP-28;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-493/RJ - km 15,600 ao km 17,600;BR-493;RJ;15.6;17.6;2.0;2.0;km;;4º;;53;riominas_per_atualizado
+ERM-PER-DUP-29;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-493/RJ - km 18,800 ao km 19,800;BR-493;RJ;18.8;19.8;1.0;1.0;km;;4º;;53;riominas_per_atualizado
+ERM-PER-DUP-30;3.2.1.A;obrigatoria;duplicacao;Duplicação - BR-493/RJ - km 19,800 ao km 25,614;BR-493;RJ;19.8;25.614;5.814;5.814;km;;4º;;53;riominas_per_atualizado
+ERM-PER-FAD-01;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 90,500 ao km 94,963 (decrescente);BR-116;RJ;90.5;94.963;4.463;4.463;km;Decrescente;6º;;54;riominas_per_atualizado
+ERM-PER-FAD-02;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 94,000 ao km 95,000 (crescente);BR-116;RJ;94.0;95.0;1.0;1.0;km;Crescente;6º;;54;riominas_per_atualizado
+ERM-PER-FAD-03;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 97,563 ao km 99,026 (crescente);BR-116;RJ;97.563;99.026;1.463;1.463;km;Crescente;6º;;54;riominas_per_atualizado
+ERM-PER-FAD-04;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 98,064 ao km 98,516 (decrescente);BR-116;RJ;98.064;98.516;0.452;0.452;km;Decrescente;6º;;54;riominas_per_atualizado
+ERM-PER-FAD-05;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 101,006 ao km 101,350 (decrescente);BR-116;RJ;101.006;101.35;0.344;0.344;km;Decrescente;6º;;54;riominas_per_atualizado
+ERM-PER-FAD-06;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 103,035 ao km 104,032 (crescente);BR-116;RJ;103.035;104.032;0.997;0.997;km;Crescente;6º;;54;riominas_per_atualizado
+ERM-PER-FAD-07;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 124,400 ao km 134,400 (decrescente);BR-116;RJ;124.4;134.4;10.0;10.0;km;Decrescente;6º;;54;riominas_per_atualizado
+ERM-PER-FAD-08;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 134,400 ao km 139,000 (decrescente);BR-116;RJ;134.4;139.0;4.6;4.6;km;Decrescente;6º;;54;riominas_per_atualizado
+ERM-PER-FAD-09;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 139,000 ao km 145,200 (crescente);BR-116;RJ;139.0;145.2;6.2;6.2;km;Crescente;6º;(**) duas faixas adicionais por sentido;54;riominas_per_atualizado
+ERM-PER-FAD-10;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 139,000 ao km 145,400 (decrescente);BR-116;RJ;139.0;145.4;6.4;6.4;km;Decrescente;6º;(**) duas faixas adicionais por sentido;54;riominas_per_atualizado
+ERM-PER-FAD-11;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 162,198 ao km 164,900 (decrescente);BR-116;RJ;162.198;164.9;2.702;2.702;km;Decrescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);54;riominas_per_atualizado
+ERM-PER-FAD-12;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 162,198 ao km 164,900 (crescente);BR-116;RJ;162.198;164.9;2.702;2.702;km;Crescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);54;riominas_per_atualizado
+ERM-PER-FAD-13;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 164,900 ao km 167,300 (decrescente);BR-116;RJ;164.9;167.3;2.4;2.4;km;Decrescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);54;riominas_per_atualizado
+ERM-PER-FAD-14;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 164,900 ao km 167,300 (crescente);BR-116;RJ;164.9;167.3;2.4;2.4;km;Crescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);54;riominas_per_atualizado
+ERM-PER-FAD-15;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 167,300 ao km 171,400 (decrescente);BR-116;RJ;167.3;171.4;4.1;4.1;km;Decrescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);54;riominas_per_atualizado
+ERM-PER-FAD-16;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 167,300 ao km 171,400 (crescente);BR-116;RJ;167.3;171.4;4.1;4.1;km;Crescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);54;riominas_per_atualizado
+ERM-PER-FAD-17;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 171,400 ao km 174,600 (decrescente);BR-116;RJ;171.4;174.6;3.2;3.2;km;Decrescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);54;riominas_per_atualizado
+ERM-PER-FAD-18;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 171,400 ao km 174,600 (crescente);BR-116;RJ;171.4;174.6;3.2;3.2;km;Crescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);54;riominas_per_atualizado
+ERM-PER-FAD-19;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 174,600 ao km 178,500 (decrescente);BR-116;RJ;174.6;178.5;3.9;3.9;km;Decrescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);54;riominas_per_atualizado
+ERM-PER-FAD-20;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 174,600 ao km 178,500 (crescente);BR-116;RJ;174.6;178.5;3.9;3.9;km;Crescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);54;riominas_per_atualizado
+ERM-PER-FAD-21;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 178,500 ao km 182,600 (decrescente);BR-116;RJ;178.5;182.6;4.1;4.1;km;Decrescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);54;riominas_per_atualizado
+ERM-PER-FAD-22;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 178,500 ao km 182,600 (crescente);BR-116;RJ;178.5;182.6;4.1;4.1;km;Crescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);55;riominas_per_atualizado
+ERM-PER-FAD-23;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 182,600 ao km 189,100 (decrescente);BR-116;RJ;182.6;189.1;6.5;6.5;km;Decrescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);55;riominas_per_atualizado
+ERM-PER-FAD-24;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 182,600 ao km 189,100 (crescente);BR-116;RJ;182.6;189.1;6.5;6.5;km;Crescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);55;riominas_per_atualizado
+ERM-PER-FAD-25;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 189,100 ao km 195,450 (decrescente);BR-116;RJ;189.1;195.45;6.35;6.35;km;Decrescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);55;riominas_per_atualizado
+ERM-PER-FAD-26;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 189,100 ao km 195,450 (crescente);BR-116;RJ;189.1;195.45;6.35;6.35;km;Crescente;4º;(*) solução projetada: acostamento usado como faixa de rolamento (3,60 m);55;riominas_per_atualizado
+ERM-PER-FAD-27;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 195,450 ao km 197,300 (decrescente);BR-116;RJ;195.45;197.3;1.85;1.85;km;Decrescente;4º;;55;riominas_per_atualizado
+ERM-PER-FAD-28;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 195,450 ao km 197,300 (crescente);BR-116;RJ;195.45;197.3;1.85;1.85;km;Crescente;4º;;55;riominas_per_atualizado
+ERM-PER-FAD-29;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 197,300 ao km 204,800 (decrescente);BR-116;RJ;197.3;204.8;7.5;7.5;km;Decrescente;5º;;55;riominas_per_atualizado
+ERM-PER-FAD-30;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 197,300 ao km 204,800 (crescente);BR-116;RJ;197.3;204.8;7.5;7.5;km;Crescente;5º;;55;riominas_per_atualizado
+ERM-PER-FAD-31;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 204,800 ao km 207,085 (decrescente);BR-116;RJ;204.8;207.085;2.285;2.285;km;Decrescente;5º;;55;riominas_per_atualizado
+ERM-PER-FAD-32;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/RJ - km 204,800 ao km 207,085 (crescente);BR-116;RJ;204.8;207.085;2.285;2.285;km;Crescente;5º;;55;riominas_per_atualizado
+ERM-PER-FAD-33;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 457,500 ao km 458,600 (decrescente);BR-116;MG;457.5;458.6;1.1;1.1;km;Decrescente;8º;;56;riominas_per_atualizado
+ERM-PER-FAD-34;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 458,800 ao km 460,000 (crescente);BR-116;MG;458.8;460.0;1.2;1.2;km;Crescente;8º;;56;riominas_per_atualizado
+ERM-PER-FAD-35;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 461,100 ao km 462,300 (crescente);BR-116;MG;461.1;462.3;1.2;1.2;km;Crescente;8º;;56;riominas_per_atualizado
+ERM-PER-FAD-36;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 461,281 ao km 460,000 (decrescente);BR-116;MG;461.281;460.0;1.281;1.281;km;Decrescente;8º;;56;riominas_per_atualizado
+ERM-PER-FAD-37;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 463,400 ao km 464,600 (crescente);BR-116;MG;463.4;464.6;1.2;1.2;km;Crescente;8º;;56;riominas_per_atualizado
+ERM-PER-FAD-38;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 463,500 ao km 462,200 (decrescente);BR-116;MG;463.5;462.2;1.3;1.3;km;Decrescente;8º;;56;riominas_per_atualizado
+ERM-PER-FAD-39;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 465,800 ao km 464,500 (decrescente);BR-116;MG;465.8;464.5;1.3;1.3;km;Decrescente;8º;;56;riominas_per_atualizado
+ERM-PER-FAD-40;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 468,100 ao km 466,800 (decrescente);BR-116;MG;468.1;466.8;1.3;1.3;km;Decrescente;8º;;56;riominas_per_atualizado
+ERM-PER-FAD-41;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 470,400 ao km 469,100 (decrescente);BR-116;MG;470.4;469.1;1.3;1.3;km;Decrescente;8º;;56;riominas_per_atualizado
+ERM-PER-FAD-42;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 470,400 ao km 471,600 (crescente);BR-116;MG;470.4;471.6;1.2;1.2;km;Crescente;7º;;56;riominas_per_atualizado
+ERM-PER-FAD-43;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 473,400 ao km 472,200 (decrescente);BR-116;MG;473.4;472.2;1.2;1.2;km;Decrescente;7º;;56;riominas_per_atualizado
+ERM-PER-FAD-44;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 475,700 ao km 476,900 (crescente);BR-116;MG;475.7;476.9;1.2;1.2;km;Crescente;7º;;56;riominas_per_atualizado
+ERM-PER-FAD-45;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 476,815 ao km 476,500 (decrescente);BR-116;MG;476.815;476.5;0.315;0.315;km;Decrescente;7º;;56;riominas_per_atualizado
+ERM-PER-FAD-46;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 481,000 ao km 482,200 (crescente);BR-116;MG;481.0;482.2;1.2;1.2;km;Crescente;7º;;56;riominas_per_atualizado
+ERM-PER-FAD-47;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 482,000 ao km 480,800 (decrescente);BR-116;MG;482.0;480.8;1.2;1.2;km;Decrescente;7º;;56;riominas_per_atualizado
+ERM-PER-FAD-48;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 486,296 ao km 485,100 (decrescente);BR-116;MG;486.296;485.1;1.196;1.196;km;Decrescente;7º;;56;riominas_per_atualizado
+ERM-PER-FAD-49;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 562,305 ao km 563,500 (crescente);BR-116;MG;562.305;563.5;1.195;1.195;km;Crescente;6º;;56;riominas_per_atualizado
+ERM-PER-FAD-50;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 567,400 ao km 563,500 (decrescente);BR-116;MG;567.4;563.5;3.9;3.9;km;Decrescente;6º;;56;riominas_per_atualizado
+ERM-PER-FAD-51;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 567,500 ao km 568,705 (crescente);BR-116;MG;567.5;568.705;1.205;1.205;km;Crescente;6º;;56;riominas_per_atualizado
+ERM-PER-FAD-52;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 569,800 ao km 568,600 (decrescente);BR-116;MG;569.8;568.6;1.2;1.2;km;Decrescente;6º;;56;riominas_per_atualizado
+ERM-PER-FAD-53;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 569,900 ao km 571,100 (crescente);BR-116;MG;569.9;571.1;1.2;1.2;km;Crescente;6º;;56;riominas_per_atualizado
+ERM-PER-FAD-54;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 572,200 ao km 571,000 (decrescente);BR-116;MG;572.2;571.0;1.2;1.2;km;Decrescente;6º;;56;riominas_per_atualizado
+ERM-PER-FAD-55;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 572,300 ao km 573,500 (crescente);BR-116;MG;572.3;573.5;1.2;1.2;km;Crescente;6º;;56;riominas_per_atualizado
+ERM-PER-FAD-56;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 574,600 ao km 573,400 (decrescente);BR-116;MG;574.6;573.4;1.2;1.2;km;Decrescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-57;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 574,700 ao km 575,900 (crescente);BR-116;MG;574.7;575.9;1.2;1.2;km;Crescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-58;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 577,000 ao km 575,800 (decrescente);BR-116;MG;577.0;575.8;1.2;1.2;km;Decrescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-59;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 577,110 ao km 578,305 (crescente);BR-116;MG;577.11;578.305;1.195;1.195;km;Crescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-60;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 579,400 ao km 578,205 (decrescente);BR-116;MG;579.4;578.205;1.195;1.195;km;Decrescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-61;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 579,500 ao km 580,700 (crescente);BR-116;MG;579.5;580.7;1.2;1.2;km;Crescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-62;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 581,800 ao km 580,600 (decrescente);BR-116;MG;581.8;580.6;1.2;1.2;km;Decrescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-63;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 581,900 ao km 583,100 (crescente);BR-116;MG;581.9;583.1;1.2;1.2;km;Crescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-64;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 584,200 ao km 583,000 (decrescente);BR-116;MG;584.2;583.0;1.2;1.2;km;Decrescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-65;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 584,600 ao km 585,800 (decrescente);BR-116;MG;584.6;585.8;1.2;1.2;km;Decrescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-66;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 586,200 ao km 585,000 (crescente);BR-116;MG;586.2;585.0;1.2;1.2;km;Crescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-67;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 593,900 ao km 591,000 (decrescente);BR-116;MG;593.9;591.0;2.9;2.9;km;Decrescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-68;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 594,000 ao km 595,207 (crescente);BR-116;MG;594.0;595.207;1.207;1.207;km;Crescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-69;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 598,600 ao km 597,400 (decrescente);BR-116;MG;598.6;597.4;1.2;1.2;km;Decrescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-70;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 598,700 ao km 599,900 (crescente);BR-116;MG;598.7;599.9;1.2;1.2;km;Crescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-71;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 603,300 ao km 602,100 (decrescente);BR-116;MG;603.3;602.1;1.2;1.2;km;Decrescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-72;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 603,300 ao km 604,500 (crescente);BR-116;MG;603.3;604.5;1.2;1.2;km;Crescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-73;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 608,000 ao km 606,800 (decrescente);BR-116;MG;608.0;606.8;1.2;1.2;km;Decrescente;6º;;57;riominas_per_atualizado
+ERM-PER-FAD-74;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 608,000 ao km 609,200 (crescente);BR-116;MG;608.0;609.2;1.2;1.2;km;Crescente;7º;;57;riominas_per_atualizado
+ERM-PER-FAD-75;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 609,200 ao km 608,000 (decrescente);BR-116;MG;609.2;608.0;1.2;1.2;km;Decrescente;7º;;57;riominas_per_atualizado
+ERM-PER-FAD-76;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 612,700 ao km 613,900 (crescente);BR-116;MG;612.7;613.9;1.2;1.2;km;Crescente;7º;;57;riominas_per_atualizado
+ERM-PER-FAD-77;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 617,000 ao km 615,500 (decrescente);BR-116;MG;617.0;615.5;1.5;1.5;km;Decrescente;7º;;57;riominas_per_atualizado
+ERM-PER-FAD-78;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 617,300 ao km 618,500 (crescente);BR-116;MG;617.3;618.5;1.2;1.2;km;Crescente;7º;;57;riominas_per_atualizado
+ERM-PER-FAD-79;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 622,100 ao km 620,900 (decrescente);BR-116;MG;622.1;620.9;1.2;1.2;km;Decrescente;7º;;57;riominas_per_atualizado
+ERM-PER-FAD-80;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 622,800 ao km 624,000 (crescente);BR-116;MG;622.8;624.0;1.2;1.2;km;Crescente;7º;;57;riominas_per_atualizado
+ERM-PER-FAD-81;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 627,200 ao km 626,000 (decrescente);BR-116;MG;627.2;626.0;1.2;1.2;km;Decrescente;7º;;57;riominas_per_atualizado
+ERM-PER-FAD-82;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 627,500 ao km 628,700 (crescente);BR-116;MG;627.5;628.7;1.2;1.2;km;Crescente;7º;;57;riominas_per_atualizado
+ERM-PER-FAD-83;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 636,500 ao km 637,700 (crescente);BR-116;MG;636.5;637.7;1.2;1.2;km;Crescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-84;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 636,500 ao km 635,195 (decrescente);BR-116;MG;636.5;635.195;1.305;1.305;km;Decrescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-85;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 640,367 ao km 641,200 (crescente);BR-116;MG;640.367;641.2;0.833;0.833;km;Crescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-86;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 644,000 ao km 645,195 (crescente);BR-116;MG;644.0;645.195;1.195;1.195;km;Crescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-87;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 645,000 ao km 643,800 (decrescente);BR-116;MG;645.0;643.8;1.2;1.2;km;Decrescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-88;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 648,000 ao km 649,195 (crescente);BR-116;MG;648.0;649.195;1.195;1.195;km;Crescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-89;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 648,000 ao km 646,800 (decrescente);BR-116;MG;648.0;646.8;1.2;1.2;km;Decrescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-90;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 651,300 ao km 652,500 (crescente);BR-116;MG;651.3;652.5;1.2;1.2;km;Crescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-91;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 651,300 ao km 650,100 (decrescente);BR-116;MG;651.3;650.1;1.2;1.2;km;Decrescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-92;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 652,500 ao km 652,250 (decrescente);BR-116;MG;652.5;652.25;0.25;0.25;km;Decrescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-93;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 655,000 ao km 656,200 (crescente);BR-116;MG;655.0;656.2;1.2;1.2;km;Crescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-94;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 661,100 ao km 662,310 (crescente);BR-116;MG;661.1;662.31;1.21;1.21;km;Crescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-95;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 666,000 ao km 667,195 (crescente);BR-116;MG;666.0;667.195;1.195;1.195;km;Crescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-96;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 669,900 ao km 668,000 (decrescente);BR-116;MG;669.9;668.0;1.9;1.9;km;Decrescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-97;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 671,000 ao km 672,200 (crescente);BR-116;MG;671.0;672.2;1.2;1.2;km;Crescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-98;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 674,200 ao km 673,000 (decrescente);BR-116;MG;674.2;673.0;1.2;1.2;km;Decrescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-99;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 675,505 ao km 676,800 (crescente);BR-116;MG;675.505;676.8;1.295;1.295;km;Crescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-100;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 678,500 ao km 677,300 (decrescente);BR-116;MG;678.5;677.3;1.2;1.2;km;Decrescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-101;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 680,200 ao km 681,400 (crescente);BR-116;MG;680.2;681.4;1.2;1.2;km;Crescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-102;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 682,800 ao km 681,600 (decrescente);BR-116;MG;682.8;681.6;1.2;1.2;km;Decrescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-103;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 684,000 ao km 685,200 (crescente);BR-116;MG;684.0;685.2;1.2;1.2;km;Crescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-104;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 687,100 ao km 685,900 (decrescente);BR-116;MG;687.1;685.9;1.2;1.2;km;Decrescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-105;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 691,100 ao km 689,900 (decrescente);BR-116;MG;691.1;689.9;1.2;1.2;km;Decrescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-106;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 695,000 ao km 694,400 (decrescente);BR-116;MG;695.0;694.4;0.6;0.6;km;Decrescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-107;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 695,300 ao km 696,500 (crescente);BR-116;MG;695.3;696.5;1.2;1.2;km;Crescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-108;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 699,300 ao km 700,500 (crescente);BR-116;MG;699.3;700.5;1.2;1.2;km;Crescente;7º;;58;riominas_per_atualizado
+ERM-PER-FAD-109;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 775,300 ao km 773,300 (decrescente);BR-116;MG;775.3;773.3;2.0;2.0;km;Decrescente;8º;;58;riominas_per_atualizado
+ERM-PER-FAD-110;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 777,300 ao km 778,500 (crescente);BR-116;MG;777.3;778.5;1.2;1.2;km;Crescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-111;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 777,400 ao km 776,200 (decrescente);BR-116;MG;777.4;776.2;1.2;1.2;km;Decrescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-112;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 779,400 ao km 778,190 (decrescente);BR-116;MG;779.4;778.19;1.21;1.21;km;Decrescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-113;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 781,285 ao km 782,500 (crescente);BR-116;MG;781.285;782.5;1.215;1.215;km;Crescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-114;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 781,400 ao km 780,200 (decrescente);BR-116;MG;781.4;780.2;1.2;1.2;km;Decrescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-115;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 783,305 ao km 784,500 (crescente);BR-116;MG;783.305;784.5;1.195;1.195;km;Crescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-116;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 783,400 ao km 782,200 (decrescente);BR-116;MG;783.4;782.2;1.2;1.2;km;Decrescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-117;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 785,400 ao km 784,195 (decrescente);BR-116;MG;785.4;784.195;1.205;1.205;km;Decrescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-118;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 787,308 ao km 788,500 (crescente);BR-116;MG;787.308;788.5;1.192;1.192;km;Crescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-119;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 787,400 ao km 786,200 (decrescente);BR-116;MG;787.4;786.2;1.2;1.2;km;Decrescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-120;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 789,300 ao km 790,500 (crescente);BR-116;MG;789.3;790.5;1.2;1.2;km;Crescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-121;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 789,400 ao km 788,200 (decrescente);BR-116;MG;789.4;788.2;1.2;1.2;km;Decrescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-122;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 793,400 ao km 792,200 (decrescente);BR-116;MG;793.4;792.2;1.2;1.2;km;Decrescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-123;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 793,500 ao km 794,700 (crescente);BR-116;MG;793.5;794.7;1.2;1.2;km;Crescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-124;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 796,500 ao km 797,700 (crescente);BR-116;MG;796.5;797.7;1.2;1.2;km;Crescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-125;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 798,400 ao km 797,200 (decrescente);BR-116;MG;798.4;797.2;1.2;1.2;km;Decrescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-126;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 800,400 ao km 799,200 (decrescente);BR-116;MG;800.4;799.2;1.2;1.2;km;Decrescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-127;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 800,500 ao km 801,700 (crescente);BR-116;MG;800.5;801.7;1.2;1.2;km;Crescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-128;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 802,400 ao km 801,200 (decrescente);BR-116;MG;802.4;801.2;1.2;1.2;km;Decrescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-129;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 802,500 ao km 803,700 (crescente);BR-116;MG;802.5;803.7;1.2;1.2;km;Crescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-130;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 804,400 ao km 803,200 (decrescente);BR-116;MG;804.4;803.2;1.2;1.2;km;Decrescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-131;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 804,500 ao km 805,700 (crescente);BR-116;MG;804.5;805.7;1.2;1.2;km;Crescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-132;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 806,500 ao km 807,700 (crescente);BR-116;MG;806.5;807.7;1.2;1.2;km;Crescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-133;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 806,600 ao km 805,400 (decrescente);BR-116;MG;806.6;805.4;1.2;1.2;km;Decrescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-134;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 808,800 ao km 807,600 (decrescente);BR-116;MG;808.8;807.6;1.2;1.2;km;Decrescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-135;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 808,900 ao km 810,100 (crescente);BR-116;MG;808.9;810.1;1.2;1.2;km;Crescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-136;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 811,000 ao km 809,805 (decrescente);BR-116;MG;811.0;809.805;1.195;1.195;km;Decrescente;8º;;59;riominas_per_atualizado
+ERM-PER-FAD-137;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 811,100 ao km 812,300 (crescente);BR-116;MG;811.1;812.3;1.2;1.2;km;Crescente;8º;;60;riominas_per_atualizado
+ERM-PER-FAD-138;3.2.1.B;obrigatoria;faixa_adicional;Faixa adicional - BR-116/MG - km 814,364 ao km 813,800 (decrescente);BR-116;MG;814.364;813.8;0.564;0.564;km;Decrescente;8º;;60;riominas_per_atualizado
+ERM-PER-ESC-01;3.2.1.C;obrigatoria;area_escape;Área de escape - BR-116/RJ - km 92,000;BR-116;RJ;92.0;;0.18;1;un;;6º;extensão mínima de 0,18 km por área;60;riominas_per_atualizado
+ERM-PER-ESC-02;3.2.1.C;obrigatoria;area_escape;Área de escape - BR-116/RJ - km 96,500;BR-116;RJ;96.5;;0.18;1;un;;6º;extensão mínima de 0,18 km por área;60;riominas_per_atualizado
+ERM-PER-ESC-03;3.2.1.C;obrigatoria;area_escape;Área de escape - BR-116/RJ - km 99,500;BR-116;RJ;99.5;;0.18;1;un;;6º;extensão mínima de 0,18 km por área;60;riominas_per_atualizado
+ERM-PER-MAR-01;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 67,500 ao km 68,000 (crescente);BR-116;RJ;67.5;68.0;0.5;0.5;km;Crescente;6º;;64;riominas_per_atualizado
+ERM-PER-MAR-02;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 67,500 ao km 68,000 (decrescente);BR-116;RJ;67.5;68.0;0.5;0.5;km;Decrescente;6º;;64;riominas_per_atualizado
+ERM-PER-MAR-03;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 105,500 ao km 105,900 (crescente);BR-116;RJ;105.5;105.9;0.4;0.4;km;Crescente;8º;;64;riominas_per_atualizado
+ERM-PER-MAR-04;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 105,500 ao km 105,900 (decrescente);BR-116;RJ;105.5;105.9;0.4;0.4;km;Decrescente;8º;;64;riominas_per_atualizado
+ERM-PER-MAR-05;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 162,198 ao km 162,750 (decrescente);BR-116;RJ;162.198;162.75;0.552;0.552;km;Decrescente;4º;;64;riominas_per_atualizado
+ERM-PER-MAR-06;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 163,250 ao km 163,500 (decrescente);BR-116;RJ;163.25;163.5;0.25;0.25;km;Decrescente;4º;;64;riominas_per_atualizado
+ERM-PER-MAR-07;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 175,000 ao km 177,000 (crescente);BR-116;RJ;175.0;177.0;2.0;2.0;km;Crescente;4º;;64;riominas_per_atualizado
+ERM-PER-MAR-08;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 176,710 ao km 179,350 (decrescente);BR-116;RJ;176.71;179.35;2.64;2.64;km;Decrescente;4º;;64;riominas_per_atualizado
+ERM-PER-MAR-09;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 177,400 ao km 179,250 (crescente);BR-116;RJ;177.4;179.25;1.85;1.85;km;Crescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-10;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 179,840 ao km 180,360 (crescente);BR-116;RJ;179.84;180.36;0.52;0.52;km;Crescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-11;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 180,750 ao km 181,100 (decrescente);BR-116;RJ;180.75;181.1;0.35;0.35;km;Decrescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-12;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 180,950 ao km 182,552 (crescente);BR-116;RJ;180.95;182.552;1.602;1.602;km;Crescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-13;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 181,340 ao km 182,482 (decrescente);BR-116;RJ;181.34;182.482;1.142;1.142;km;Decrescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-14;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 182,693 ao km 183,320 (crescente);BR-116;RJ;182.693;183.32;0.627;0.627;km;Crescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-15;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 182,812 ao km 185,300 (decrescente);BR-116;RJ;182.812;185.3;2.488;2.488;km;Decrescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-16;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 183,660 ao km 186,330 (crescente);BR-116;RJ;183.66;186.33;2.67;2.67;km;Crescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-17;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 185,500 ao km 195,400 (decrescente);BR-116;RJ;185.5;195.4;9.9;9.9;km;Decrescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-18;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/RJ - km 186,750 ao km 195,400 (crescente);BR-116;RJ;186.75;195.4;8.65;8.65;km;Crescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-19;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 409,915 ao km 410,655 (decrescente);BR-116;MG;409.915;410.655;0.74;0.74;km;Decrescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-20;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 409,935 ao km 411,310 (crescente);BR-116;MG;409.935;411.31;1.375;1.375;km;Crescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-21;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 411,345 ao km 411,855 (decrescente);BR-116;MG;411.345;411.855;0.51;0.51;km;Decrescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-22;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 412,015 ao km 412,490 (decrescente);BR-116;MG;412.015;412.49;0.475;0.475;km;Decrescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-23;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 416,240 ao km 417,105 (decrescente);BR-116;MG;416.24;417.105;0.865;0.865;km;Decrescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-24;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 416,340 ao km 417,560 (crescente);BR-116;MG;416.34;417.56;1.22;1.22;km;Crescente;4º;;65;riominas_per_atualizado
+ERM-PER-MAR-25;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 497,435 ao km 498,340 (decrescente);BR-116;MG;497.435;498.34;0.905;0.905;km;Decrescente;6º;;65;riominas_per_atualizado
+ERM-PER-MAR-26;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 524,345 ao km 526,400 (crescente);BR-116;MG;524.345;526.4;2.055;2.055;km;Crescente;5º;;65;riominas_per_atualizado
+ERM-PER-MAR-27;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 524,865 ao km 525,815 (decrescente);BR-116;MG;524.865;525.815;0.95;0.95;km;Decrescente;5º;;65;riominas_per_atualizado
+ERM-PER-MAR-28;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 528,235 ao km 529,500 (crescente);BR-116;MG;528.235;529.5;1.265;1.265;km;Crescente;5º;;65;riominas_per_atualizado
+ERM-PER-MAR-29;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 528,235 ao km 529,500 (decrescente);BR-116;MG;528.235;529.5;1.265;1.265;km;Decrescente;5º;;66;riominas_per_atualizado
+ERM-PER-MAR-30;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 529,500 ao km 530,050 (decrescente);BR-116;MG;529.5;530.05;0.55;0.55;km;Decrescente;7º;;66;riominas_per_atualizado
+ERM-PER-MAR-31;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 529,500 ao km 530,150 (crescente);BR-116;MG;529.5;530.15;0.65;0.65;km;Crescente;7º;;66;riominas_per_atualizado
+ERM-PER-MAR-32;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 537,000 ao km 538,615 (crescente);BR-116;MG;537.0;538.615;1.615;1.615;km;Crescente;7º;;66;riominas_per_atualizado
+ERM-PER-MAR-33;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 537,460 ao km 538,615 (decrescente);BR-116;MG;537.46;538.615;1.155;1.155;km;Decrescente;7º;;66;riominas_per_atualizado
+ERM-PER-MAR-34;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 650,645 ao km 652,500 (decrescente);BR-116;MG;650.645;652.5;1.855;1.855;km;Decrescente;7º;;66;riominas_per_atualizado
+ERM-PER-MAR-35;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 650,960 ao km 652,205 (crescente);BR-116;MG;650.96;652.205;1.245;1.245;km;Crescente;7º;;66;riominas_per_atualizado
+ERM-PER-MAR-36;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 672,955 ao km 673,290 (crescente);BR-116;MG;672.955;673.29;0.335;0.335;km;Crescente;7º;;66;riominas_per_atualizado
+ERM-PER-MAR-37;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 766,400 ao km 767,000 (crescente);BR-116;MG;766.4;767.0;0.6;0.6;km;Crescente;8º;;66;riominas_per_atualizado
+ERM-PER-MAR-38;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 767,910 ao km 769,465 (decrescente);BR-116;MG;767.91;769.465;1.555;1.555;km;Decrescente;8º;;66;riominas_per_atualizado
+ERM-PER-MAR-39;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-116/MG - km 768,540 ao km 770,750 (crescente);BR-116;MG;768.54;770.75;2.21;2.21;km;Crescente;8º;;66;riominas_per_atualizado
+ERM-PER-MAR-40;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-465/RJ - km 3,774 ao km 4,960 (crescente);BR-465;RJ;3.774;4.96;1.186;1.186;km;Crescente;8º;;66;riominas_per_atualizado
+ERM-PER-MAR-41;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-465/RJ - km 12,150 ao km 12,525 (crescente);BR-465;RJ;12.15;12.525;0.375;0.375;km;Crescente;8º;;66;riominas_per_atualizado
+ERM-PER-MAR-42;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-465/RJ - km 12,700 ao km 14,580 (crescente);BR-465;RJ;12.7;14.58;1.88;1.88;km;Crescente;8º;;66;riominas_per_atualizado
+ERM-PER-MAR-43;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-465/RJ - km 12,800 ao km 14,180 (decrescente);BR-465;RJ;12.8;14.18;1.38;1.38;km;Decrescente;8º;;66;riominas_per_atualizado
+ERM-PER-MAR-44;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-465/RJ - km 16,832 ao km 17,063 (crescente);BR-465;RJ;16.832;17.063;0.231;0.231;km;Crescente;8º;;66;riominas_per_atualizado
+ERM-PER-MAR-45;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-465/RJ - km 17,250 ao km 18,124 (crescente);BR-465;RJ;17.25;18.124;0.874;0.874;km;Crescente;8º;;66;riominas_per_atualizado
+ERM-PER-MAR-46;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-465/RJ - km 17,250 ao km 18,124 (decrescente);BR-465;RJ;17.25;18.124;0.874;0.874;km;Decrescente;8º;;66;riominas_per_atualizado
+ERM-PER-MAR-47;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-465/RJ - km 18,440 ao km 19,000 (crescente);BR-465;RJ;18.44;19.0;0.56;0.56;km;Crescente;8º;;66;riominas_per_atualizado
+ERM-PER-MAR-48;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-465/RJ - km 18,440 ao km 19,000 (decrescente);BR-465;RJ;18.44;19.0;0.56;0.56;km;Decrescente;8º;;66;riominas_per_atualizado
+ERM-PER-MAR-49;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-493/RJ - km 0,603 ao km 5,223 (crescente);BR-493;RJ;0.603;5.223;4.62;4.62;km;Crescente;4º;;67;riominas_per_atualizado
+ERM-PER-MAR-50;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-493/RJ - km 0,758 ao km 3,028 (decrescente);BR-493;RJ;0.758;3.028;2.27;2.27;km;Decrescente;4º;;67;riominas_per_atualizado
+ERM-PER-MAR-51;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-493/RJ - km 3,309 ao km 5,233 (decrescente);BR-493;RJ;3.309;5.233;1.924;1.924;km;Decrescente;4º;;67;riominas_per_atualizado
+ERM-PER-MAR-52;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-493/RJ - km 5,789 ao km 6,641 (crescente);BR-493;RJ;5.789;6.641;0.852;0.852;km;Crescente;4º;;67;riominas_per_atualizado
+ERM-PER-MAR-53;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-493/RJ - km 5,789 ao km 6,642 (decrescente);BR-493;RJ;5.789;6.642;0.853;0.853;km;Decrescente;4º;;67;riominas_per_atualizado
+ERM-PER-MAR-54;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-493/RJ - km 17,668 ao km 19,209 (crescente);BR-493;RJ;17.668;19.209;1.541;1.541;km;Crescente;4º;;67;riominas_per_atualizado
+ERM-PER-MAR-55;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-493/RJ - km 17,841 ao km 18,800 (decrescente);BR-493;RJ;17.841;18.8;0.959;0.959;km;Decrescente;4º;;67;riominas_per_atualizado
+ERM-PER-MAR-56;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-493/RJ - km 19,676 ao km 21,478 (decrescente);BR-493;RJ;19.676;21.478;1.802;1.802;km;Decrescente;4º;;67;riominas_per_atualizado
+ERM-PER-MAR-57;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-493/RJ - km 19,681 ao km 21,588 (crescente);BR-493;RJ;19.681;21.588;1.907;1.907;km;Crescente;4º;;67;riominas_per_atualizado
+ERM-PER-MAR-58;3.2.2.B;obrigatoria;via_marginal;Via marginal - BR-493/RJ - km 77,532 ao km 77,965 (decrescente);BR-493;RJ;77.532;77.965;0.433;0.433;km;Decrescente;6º;;67;riominas_per_atualizado
+ERM-PER-DIA-01;3.2.2.C;obrigatoria;interconexao_diamante;Interseção diamante - BR-116/RJ - km 47,450;BR-116;RJ;47.45;;;1;un;;7º;;68;riominas_per_atualizado
+ERM-PER-DIA-02;3.2.2.C;obrigatoria;interconexao_diamante;Interseção diamante - BR-116/RJ - km 54,165;BR-116;RJ;54.165;;;1;un;;7º;;68;riominas_per_atualizado
+ERM-PER-DIA-03;3.2.2.C;obrigatoria;interconexao_diamante;Interseção diamante - BR-116/RJ - km 80,900;BR-116;RJ;80.9;;;1;un;;6º;;68;riominas_per_atualizado
+ERM-PER-DIA-04;3.2.2.C;obrigatoria;interconexao_diamante;Interseção diamante - BR-116/RJ - km 113,265;BR-116;RJ;113.265;;;1;un;;8º;;68;riominas_per_atualizado
+ERM-PER-DIA-05;3.2.2.C;obrigatoria;interconexao_diamante;Interseção diamante - BR-116/RJ - km 195,500;BR-116;RJ;195.5;;;1;un;;4º;;68;riominas_per_atualizado
+ERM-PER-DIA-06;3.2.2.C;obrigatoria;interconexao_diamante;Interseção diamante - BR-116/MG - km 422,410;BR-116;MG;422.41;;;1;un;;6º;;68;riominas_per_atualizado
+ERM-PER-DIA-07;3.2.2.C;obrigatoria;interconexao_diamante;Interseção diamante - BR-116/MG - km 523,538;BR-116;MG;523.538;;;1;un;;5º;;68;riominas_per_atualizado
+ERM-PER-DIA-08;3.2.2.C;obrigatoria;interconexao_diamante;Interseção diamante - BR-116/MG - km 703,320;BR-116;MG;703.32;;;1;un;;6º;;68;riominas_per_atualizado
+ERM-PER-DIA-09;3.2.2.C;obrigatoria;interconexao_diamante;Interseção diamante - BR-116/MG - km 763,580;BR-116;MG;763.58;;;1;un;;8º;;68;riominas_per_atualizado
+ERM-PER-DIA-10;3.2.2.C;obrigatoria;interconexao_diamante;Interseção diamante - BR-116/MG - km 765,750;BR-116;MG;765.75;;;1;un;;8º;;68;riominas_per_atualizado
+ERM-PER-PIN-01;3.2.2.D;obrigatoria;passagem_inferior;Interseção em passagem inferior - BR-116/RJ - km 83,440;BR-116;RJ;83.44;;;1;un;;6º;;68;riominas_per_atualizado
+ERM-PER-PIN-02;3.2.2.D;obrigatoria;passagem_inferior;Interseção em passagem inferior - BR-116/RJ - km 90,400;BR-116;RJ;90.4;;;1;un;;6º;;68;riominas_per_atualizado
+ERM-PER-PIN-03;3.2.2.D;obrigatoria;passagem_inferior;Interseção em passagem inferior - BR-116/RJ - km 105,650;BR-116;RJ;105.65;;;1;un;;8º;;68;riominas_per_atualizado
+ERM-PER-PIN-04;3.2.2.D;obrigatoria;passagem_inferior;Interseção em passagem inferior - BR-116/RJ - km 142,650;BR-116;RJ;142.65;;;1;un;;6º;;68;riominas_per_atualizado
+ERM-PER-PIN-05;3.2.2.D;obrigatoria;passagem_inferior;Interseção em passagem inferior - BR-116/MG - km 673,266;BR-116;MG;673.266;;;1;un;;7º;;68;riominas_per_atualizado
+ERM-PER-PIN-06;3.2.2.D;obrigatoria;passagem_inferior;Interseção em passagem inferior - BR-116/MG - km 704,084;BR-116;MG;704.084;;;1;un;;7º;;68;riominas_per_atualizado
+ERM-PER-PIN-07;3.2.2.D;obrigatoria;passagem_inferior;Interseção em passagem inferior - BR-116/MG - km 737,100;BR-116;MG;737.1;;;1;un;;7º;;68;riominas_per_atualizado
+ERM-PER-PIN-08;3.2.2.D;obrigatoria;passagem_inferior;Interseção em passagem inferior - BR-493/RJ - km 6,100;BR-493;RJ;6.1;;;1;un;;4º;;69;riominas_per_atualizado
+ERM-PER-PIN-09;3.2.2.D;obrigatoria;passagem_inferior;Interseção em passagem inferior - BR-493/RJ - km 6,700;BR-493;RJ;6.7;;;1;un;;4º;;69;riominas_per_atualizado
+ERM-PER-PIN-10;3.2.2.D;obrigatoria;passagem_inferior;Interseção em passagem inferior - BR-493/RJ - km 15,585;BR-493;RJ;15.585;;;1;un;;4º;;69;riominas_per_atualizado
+ERM-PER-PIN-11;3.2.2.D;obrigatoria;passagem_inferior;Interseção em passagem inferior - BR-493/RJ - km 19,757;BR-493;RJ;19.757;;;1;un;;4º;;69;riominas_per_atualizado
+ERM-PER-PIN-12;3.2.2.D;obrigatoria;passagem_inferior;Interseção em passagem inferior - BR-493/RJ - km 21,276;BR-493;RJ;21.276;;;1;un;;4º;;69;riominas_per_atualizado
+ERM-PER-PIN-13;3.2.2.D;obrigatoria;passagem_inferior;Interseção em passagem inferior - BR-493/RJ - km 23,390;BR-493;RJ;23.39;;;1;un;;4º;;69;riominas_per_atualizado
+ERM-PER-TRB-01;3.2.2.E;obrigatoria;interconexao_trombeta;Interseção trombeta - BR-116/MG - km 470,375;BR-116;MG;470.375;;;1;un;;7º;;69;riominas_per_atualizado
+ERM-PER-TRB-02;3.2.2.E;obrigatoria;interconexao_trombeta;Interseção trombeta - BR-116/MG - km 607,444;BR-116;MG;607.444;;;1;un;;6º;;69;riominas_per_atualizado
+ERM-PER-TRB-03;3.2.2.E;obrigatoria;interconexao_trombeta;Interseção trombeta - BR-116/MG - km 815,000;BR-116;MG;815.0;;;1;un;;8º;;69;riominas_per_atualizado
+ERM-PER-TRB-04;3.2.2.E;obrigatoria;interconexao_trombeta;Interseção trombeta - BR-493/RJ - km 77,985;BR-493;RJ;77.985;;;1;un;;8º;;69;riominas_per_atualizado
+ERM-PER-TRV-01;3.2.2.F;obrigatoria;interconexao_trevo;Interseção trevo - BR-493/RJ - km 7,400;BR-493;RJ;7.4;;;1;un;;4º;;69;riominas_per_atualizado
+ERM-PER-RTU-01;3.2.2.G;obrigatoria;retorno_em_desnivel;Retorno tipo U - BR-116/RJ - km 39,400;BR-116;RJ;39.4;;;1;un;;7º;;70;riominas_per_atualizado
+ERM-PER-RTU-02;3.2.2.G;obrigatoria;retorno_em_desnivel;Retorno tipo U - BR-116/RJ - km 41,000;BR-116;RJ;41.0;;;1;un;;7º;;70;riominas_per_atualizado
+ERM-PER-RTU-03;3.2.2.G;obrigatoria;retorno_em_desnivel;Retorno tipo U - BR-116/RJ - km 71,350;BR-116;RJ;71.35;;;1;un;;6º;;70;riominas_per_atualizado
+ERM-PER-RTU-04;3.2.2.G;obrigatoria;retorno_em_desnivel;Retorno tipo U - BR-116/RJ - km 107,500;BR-116;RJ;107.5;;;1;un;;8º;*Retorno sob o dispositivo do km 107,5 para atender à RJ-122;70;riominas_per_atualizado
+ERM-PER-RTU-05;3.2.2.G;obrigatoria;retorno_em_desnivel;Retorno tipo U - BR-116/RJ - km 134,000;BR-116;RJ;134.0;;;1;un;;6º;;70;riominas_per_atualizado
+ERM-PER-RTU-06;3.2.2.G;obrigatoria;retorno_em_desnivel;Retorno tipo U - BR-116/RJ - km 136,500;BR-116;RJ;136.5;;;1;un;;6º;;70;riominas_per_atualizado
+ERM-PER-RTU-07;3.2.2.G;obrigatoria;retorno_em_desnivel;Retorno tipo U - BR-116/MG - km 423,765;BR-116;MG;423.765;;;1;un;;6º;;70;riominas_per_atualizado
+ERM-PER-RTU-08;3.2.2.G;obrigatoria;retorno_em_desnivel;Retorno tipo U - BR-116/MG - km 455,730;BR-116;MG;455.73;;;1;un;;6º;;70;riominas_per_atualizado
+ERM-PER-RTU-09;3.2.2.G;obrigatoria;retorno_em_desnivel;Retorno tipo U - BR-116/MG - km 457,950;BR-116;MG;457.95;;;1;un;;6º;;70;riominas_per_atualizado
+ERM-PER-RTU-10;3.2.2.G;obrigatoria;retorno_em_desnivel;Retorno tipo U - BR-116/MG - km 587,500;BR-116;MG;587.5;;;1;un;;6º;;70;riominas_per_atualizado
+ERM-PER-RTU-11;3.2.2.G;obrigatoria;retorno_em_desnivel;Retorno tipo U - BR-116/MG - km 722,140;BR-116;MG;722.14;;;1;un;;7º;;70;riominas_per_atualizado
+ERM-PER-RTU-12;3.2.2.G;obrigatoria;retorno_em_desnivel;Retorno tipo U - BR-116/MG - km 770,480;BR-116;MG;770.48;;;1;un;;8º;;70;riominas_per_atualizado
+ERM-PER-RTU-13;3.2.2.G;obrigatoria;retorno_em_desnivel;Retorno tipo U - BR-116/MG - km 815,570;BR-116;MG;815.57;;;1;un;;8º;;70;riominas_per_atualizado
+ERM-PER-RTU-14;3.2.2.G;obrigatoria;retorno_em_desnivel;Retorno tipo U - BR-465/RJ - km 6,200;BR-465;RJ;6.2;;;1;un;;8º;;70;riominas_per_atualizado
+ERM-PER-RTU-15;3.2.2.G;obrigatoria;retorno_em_desnivel;Retorno tipo U - BR-493/RJ - km 119,400;BR-493;RJ;119.4;;;1;un;;8º;;70;riominas_per_atualizado
+ERM-PER-RTX-01;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 5,550;BR-116;RJ;5.55;;;1;un;;8º;;71;riominas_per_atualizado
+ERM-PER-RTX-02;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 9,940;BR-116;RJ;9.94;;;1;un;;8º;;71;riominas_per_atualizado
+ERM-PER-RTX-03;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 15,630;BR-116;RJ;15.63;;;1;un;;8º;;71;riominas_per_atualizado
+ERM-PER-RTX-04;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 20,028;BR-116;RJ;20.028;;;1;un;;8º;;71;riominas_per_atualizado
+ERM-PER-RTX-05;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 25,250;BR-116;RJ;25.25;;;1;un;;8º;;71;riominas_per_atualizado
+ERM-PER-RTX-06;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 29,827;BR-116;RJ;29.827;;;1;un;;8º;;71;riominas_per_atualizado
+ERM-PER-RTX-07;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 34,800;BR-116;RJ;34.8;;;1;un;;8º;;71;riominas_per_atualizado
+ERM-PER-RTX-08;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 45,000;BR-116;RJ;45.0;;;1;un;;7º;;71;riominas_per_atualizado
+ERM-PER-RTX-09;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 50,150;BR-116;RJ;50.15;;;1;un;;7º;;71;riominas_per_atualizado
+ERM-PER-RTX-10;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 60,300;BR-116;RJ;60.3;;;1;un;;6º;;71;riominas_per_atualizado
+ERM-PER-RTX-11;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 65,500;BR-116;RJ;65.5;;;1;un;;6º;;71;riominas_per_atualizado
+ERM-PER-RTX-12;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 70,000;BR-116;RJ;70.0;;;1;un;;6º;;71;riominas_per_atualizado
+ERM-PER-RTX-13;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 75,000;BR-116;RJ;75.0;;;1;un;;6º;;71;riominas_per_atualizado
+ERM-PER-RTX-14;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 78,900;BR-116;RJ;78.9;;;1;un;;6º;;71;riominas_per_atualizado
+ERM-PER-RTX-15;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 85,100;BR-116;RJ;85.1;;;1;un;;6º;;71;riominas_per_atualizado
+ERM-PER-RTX-16;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 105,000;BR-116;RJ;105.0;;;1;un;;8º;;71;riominas_per_atualizado
+ERM-PER-RTX-17;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 111,000;BR-116;RJ;111.0;;;1;un;;8º;;71;riominas_per_atualizado
+ERM-PER-RTX-18;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 120,000;BR-116;RJ;120.0;;;1;un;;8º;;71;riominas_per_atualizado
+ERM-PER-RTX-19;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/RJ - km 130,000;BR-116;RJ;130.0;;;1;un;;6º;;71;riominas_per_atualizado
+ERM-PER-RTX-20;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 416,760;BR-116;MG;416.76;;;1;un;;4º;;71;riominas_per_atualizado
+ERM-PER-RTX-21;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 419,750;BR-116;MG;419.75;;;1;un;;4º;;71;riominas_per_atualizado
+ERM-PER-RTX-22;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 427,760;BR-116;MG;427.76;;;1;un;;6º;;71;riominas_per_atualizado
+ERM-PER-RTX-23;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 432,745;BR-116;MG;432.745;;;1;un;;6º;;71;riominas_per_atualizado
+ERM-PER-RTX-24;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 437,740;BR-116;MG;437.74;;;1;un;;6º;;71;riominas_per_atualizado
+ERM-PER-RTX-25;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 442,740;BR-116;MG;442.74;;;1;un;;6º;;71;riominas_per_atualizado
+ERM-PER-RTX-26;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 447,740;BR-116;MG;447.74;;;1;un;;6º;;71;riominas_per_atualizado
+ERM-PER-RTX-27;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 452,740;BR-116;MG;452.74;;;1;un;;6º;;71;riominas_per_atualizado
+ERM-PER-RTX-28;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 463,000;BR-116;MG;463.0;;;1;un;;8º;;71;riominas_per_atualizado
+ERM-PER-RTX-29;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 469,100;BR-116;MG;469.1;;;1;un;;8º;;71;riominas_per_atualizado
+ERM-PER-RTX-30;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 477,000;BR-116;MG;477.0;;;1;un;;7º;;71;riominas_per_atualizado
+ERM-PER-RTX-31;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 480,750;BR-116;MG;480.75;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-32;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 492,740;BR-116;MG;492.74;;;1;un;;6º;;72;riominas_per_atualizado
+ERM-PER-RTX-33;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 497,740;BR-116;MG;497.74;;;1;un;;6º;;72;riominas_per_atualizado
+ERM-PER-RTX-34;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 502,740;BR-116;MG;502.74;;;1;un;;5º;;72;riominas_per_atualizado
+ERM-PER-RTX-35;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 507,740;BR-116;MG;507.74;;;1;un;;5º;;72;riominas_per_atualizado
+ERM-PER-RTX-36;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 512,740;BR-116;MG;512.74;;;1;un;;5º;;72;riominas_per_atualizado
+ERM-PER-RTX-37;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 517,240;BR-116;MG;517.24;;;1;un;;5º;;72;riominas_per_atualizado
+ERM-PER-RTX-38;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 530,400;BR-116;MG;530.4;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-39;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 536,100;BR-116;MG;536.1;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-40;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 542,060;BR-116;MG;542.06;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-41;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 547,550;BR-116;MG;547.55;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-42;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 551,240;BR-116;MG;551.24;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-43;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 558,840;BR-116;MG;558.84;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-44;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 563,100;BR-116;MG;563.1;;;1;un;;6º;;72;riominas_per_atualizado
+ERM-PER-RTX-45;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 567,250;BR-116;MG;567.25;;;1;un;;6º;;72;riominas_per_atualizado
+ERM-PER-RTX-46;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 573,000;BR-116;MG;573.0;;;1;un;;6º;;72;riominas_per_atualizado
+ERM-PER-RTX-47;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 579,500;BR-116;MG;579.5;;;1;un;;6º;;72;riominas_per_atualizado
+ERM-PER-RTX-48;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 583,000;BR-116;MG;583.0;;;1;un;;6º;;72;riominas_per_atualizado
+ERM-PER-RTX-49;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 594,100;BR-116;MG;594.1;;;1;un;;6º;;72;riominas_per_atualizado
+ERM-PER-RTX-50;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 599,200;BR-116;MG;599.2;;;1;un;;6º;;72;riominas_per_atualizado
+ERM-PER-RTX-51;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 604,000;BR-116;MG;604.0;;;1;un;;6º;;72;riominas_per_atualizado
+ERM-PER-RTX-52;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 610,000;BR-116;MG;610.0;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-53;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 613,500;BR-116;MG;613.5;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-54;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 617,000;BR-116;MG;617.0;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-55;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 626,600;BR-116;MG;626.6;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-56;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 641,250;BR-116;MG;641.25;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-57;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 646,250;BR-116;MG;646.25;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-58;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 650,000;BR-116;MG;650.0;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-59;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 654,000;BR-116;MG;654.0;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-60;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 665,000;BR-116;MG;665.0;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-61;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 676,400;BR-116;MG;676.4;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-62;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 681,700;BR-116;MG;681.7;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-63;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 685,750;BR-116;MG;685.75;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-64;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 696,100;BR-116;MG;696.1;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-65;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 707,600;BR-116;MG;707.6;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-66;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 712,900;BR-116;MG;712.9;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-67;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 717,735;BR-116;MG;717.735;;;1;un;;7º;;72;riominas_per_atualizado
+ERM-PER-RTX-68;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 722,835;BR-116;MG;722.835;;;1;un;;7º;;73;riominas_per_atualizado
+ERM-PER-RTX-69;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 727,735;BR-116;MG;727.735;;;1;un;;7º;;73;riominas_per_atualizado
+ERM-PER-RTX-70;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 732,735;BR-116;MG;732.735;;;1;un;;7º;;73;riominas_per_atualizado
+ERM-PER-RTX-71;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 742,735;BR-116;MG;742.735;;;1;un;;7º;;73;riominas_per_atualizado
+ERM-PER-RTX-72;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 747,735;BR-116;MG;747.735;;;1;un;;8º;;73;riominas_per_atualizado
+ERM-PER-RTX-73;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 752,435;BR-116;MG;752.435;;;1;un;;8º;;73;riominas_per_atualizado
+ERM-PER-RTX-74;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 757,735;BR-116;MG;757.735;;;1;un;;8º;;73;riominas_per_atualizado
+ERM-PER-RTX-75;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 772,735;BR-116;MG;772.735;;;1;un;;8º;;73;riominas_per_atualizado
+ERM-PER-RTX-76;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 785,400;BR-116;MG;785.4;;;1;un;;8º;;73;riominas_per_atualizado
+ERM-PER-RTX-77;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 791,750;BR-116;MG;791.75;;;1;un;;8º;;73;riominas_per_atualizado
+ERM-PER-RTX-78;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 798,000;BR-116;MG;798.0;;;1;un;;8º;;73;riominas_per_atualizado
+ERM-PER-RTX-79;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 803,500;BR-116;MG;803.5;;;1;un;;8º;;73;riominas_per_atualizado
+ERM-PER-RTX-80;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 809,000;BR-116;MG;809.0;;;1;un;;8º;;73;riominas_per_atualizado
+ERM-PER-RTX-81;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-116/MG - km 814,360;BR-116;MG;814.36;;;1;un;;8º;;73;riominas_per_atualizado
+ERM-PER-RTX-82;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-493/RJ - km 10,000;BR-493;RJ;10.0;;;1;un;;4º;;73;riominas_per_atualizado
+ERM-PER-RTX-83;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-493/RJ - km 60,000;BR-493;RJ;60.0;;;1;un;;6º;;73;riominas_per_atualizado
+ERM-PER-RTX-84;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-493/RJ - km 76,500;BR-493;RJ;76.5;;;1;un;;6º;;73;riominas_per_atualizado
+ERM-PER-RTX-85;3.2.2.H;obrigatoria;retorno_em_desnivel;Retorno tipo X - BR-493/RJ - km 83,900;BR-493;RJ;83.9;;;1;un;;8º;;73;riominas_per_atualizado
+ERM-PER-ROT-01;3.2.2.I;obrigatoria;rotatoria;Rotatória em nível - BR-116/MG - km 621,974;BR-116;MG;621.974;;;1;un;;7º;;73;riominas_per_atualizado
+ERM-PER-ROT-02;3.2.2.I;obrigatoria;rotatoria;Rotatória em nível - BR-116/MG - km 632,533;BR-116;MG;632.533;;;1;un;;7º;;73;riominas_per_atualizado
+ERM-PER-ROT-03;3.2.2.I;obrigatoria;rotatoria;Rotatória em nível - BR-116/MG - km 635,813;BR-116;MG;635.813;;;1;un;;7º;;73;riominas_per_atualizado
+ERM-PER-ROT-04;3.2.2.I;obrigatoria;rotatoria;Rotatória em nível - BR-116/MG - km 651,344;BR-116;MG;651.344;;;1;un;;7º;;73;riominas_per_atualizado
+ERM-PER-ROT-05;3.2.2.I;obrigatoria;rotatoria;Rotatória em nível - BR-116/MG - km 657,748;BR-116;MG;657.748;;;1;un;;7º;;73;riominas_per_atualizado
+ERM-PER-ROT-06;3.2.2.I;obrigatoria;rotatoria;Rotatória em nível - BR-116/MG - km 690,472;BR-116;MG;690.472;;;1;un;;7º;;73;riominas_per_atualizado
+ERM-PER-ROT-07;3.2.2.I;obrigatoria;rotatoria;Rotatória em nível - BR-116/MG - km 700,046;BR-116;MG;700.046;;;1;un;;7º;;73;riominas_per_atualizado
+ERM-PER-ROT-08;3.2.2.I;obrigatoria;rotatoria;Rotatória em nível - BR-116/MG - km 701,553;BR-116;MG;701.553;;;1;un;;7º;;73;riominas_per_atualizado
+ERM-PER-ROT-09;3.2.2.I;obrigatoria;rotatoria;Rotatória em nível - BR-116/MG - km 768,300;BR-116;MG;768.3;;;1;un;;8º;;73;riominas_per_atualizado
+ERM-PER-ROA-01;3.2.2.J;obrigatoria;rotatoria;Rotatória alongada - BR-116/RJ - km 38,000;BR-116;RJ;38.0;;;1;un;;7º;;74;riominas_per_atualizado
+ERM-PER-ROA-02;3.2.2.J;obrigatoria;rotatoria;Rotatória alongada - BR-116/RJ - km 95,715;BR-116;RJ;95.715;;;1;un;;6º;;74;riominas_per_atualizado
+ERM-PER-ROA-03;3.2.2.J;obrigatoria;rotatoria;Rotatória alongada - BR-116/RJ - km 100,700;BR-116;RJ;100.7;;;1;un;;6º;;74;riominas_per_atualizado
+ERM-PER-ROA-04;3.2.2.J;obrigatoria;rotatoria;Rotatória alongada - BR-465/RJ - km 0,707;BR-465;RJ;0.707;;;1;un;;8º;;74;riominas_per_atualizado
+ERM-PER-ROA-05;3.2.2.J;obrigatoria;rotatoria;Rotatória alongada - BR-465/RJ - km 1,430;BR-465;RJ;1.43;;;1;un;;8º;;74;riominas_per_atualizado
+ERM-PER-ROA-06;3.2.2.J;obrigatoria;rotatoria;Rotatória alongada - BR-465/RJ - km 7,200;BR-465;RJ;7.2;;;1;un;;8º;;74;riominas_per_atualizado
+ERM-PER-ROA-07;3.2.2.J;obrigatoria;rotatoria;Rotatória alongada - BR-465/RJ - km 12,600;BR-465;RJ;12.6;;;1;un;;8º;;74;riominas_per_atualizado
+ERM-PER-ROA-08;3.2.2.J;obrigatoria;rotatoria;Rotatória alongada - BR-465/RJ - km 15,250;BR-465;RJ;15.25;;;1;un;;8º;;74;riominas_per_atualizado
+ERM-PER-ROA-09;3.2.2.J;obrigatoria;rotatoria;Rotatória alongada - BR-465/RJ - km 17,165;BR-465;RJ;17.165;;;1;un;;8º;;74;riominas_per_atualizado
+ERM-PER-ROA-10;3.2.2.J;obrigatoria;rotatoria;Rotatória alongada - BR-465/RJ - km 18,281;BR-465;RJ;18.281;;;1;un;;8º;;74;riominas_per_atualizado
+ERM-PER-ALC-01;3.2.2.K;obrigatoria;alca_conexao;Alça de conexão (OAE expressa (Av. Brasil - BR-116), marginal) - BR-116/RJ - km 161,800;BR-116;RJ;161.8;;;1;un;;4º;;74;riominas_per_atualizado
+ERM-PER-ALC-02;3.2.2.K;obrigatoria;alca_conexao;Alça de conexão (OAE expressa (Av. Brasil - BR-116), expressa) - BR-116/RJ - km 161,800;BR-116;RJ;161.8;;;1;un;;4º;;74;riominas_per_atualizado
+ERM-PER-ALC-03;3.2.2.K;obrigatoria;alca_conexao;Alça de conexão (Melhoria de raio de curva no acesso à BR-116 Dutra/RJ) - BR-116/RJ - km 166,122;BR-116;RJ;166.122;;;1;un;;4º;(*) sentido RJ, aumento do raio de curva para acesso à BR-116 sentido Rio de Janeiro (Rua Trevo);74;riominas_per_atualizado
+ERM-PER-ALC-04;3.2.2.K;obrigatoria;alca_conexao;Alça de conexão (OAE expressa (BR-116 expressa - Linha Vermelha)) - BR-116/RJ - km 165,000;BR-116;RJ;165.0;;;1;un;;4º;;74;riominas_per_atualizado
+ERM-PER-ALC-05;3.2.2.K;obrigatoria;alca_conexao;Alça de conexão (OAE expressa (Linha Vermelha - BR-116 expressa)) - BR-116/RJ - km 165,000;BR-116;RJ;165.0;;;1;un;;4º;;74;riominas_per_atualizado
+ERM-PER-ALC-06;3.2.2.K;obrigatoria;alca_conexao;Alça de conexão (Alça em mão dupla entre a BR-465 e a BR-493) - BR-465/RJ - km 2,500;BR-465;RJ;2.5;;;1;un;;8º;(*) a alça deverá ser construída ao sul do entroncamento BR-465 x BR-493 (FLONA Mário Xavier);75;riominas_per_atualizado
+ERM-PER-ALC-07;3.2.2.K;obrigatoria;alca_conexao;Alça de conexão (BR-493 x BR-101) - BR-493/RJ - km 0,000;BR-493;RJ;0.0;;;1;un;;4º;;75;riominas_per_atualizado
+ERM-PER-ACE-01;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 1) - BR-116/RJ;BR-116;RJ;;;;25;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 1 - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-02;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 3) - BR-116/RJ;BR-116;RJ;;;;16;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 3 - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-03;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 4) - BR-116/RJ;BR-116;RJ;;;;21;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 4 - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-04;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 5) - BR-116/RJ;BR-116;RJ;;;;3;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 5 - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-05;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 6) - BR-116/RJ;BR-116;RJ;;;;35;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 6 - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-06;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 7) - BR-116/RJ;BR-116;RJ;;;;30;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 7 - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-07;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 8) - BR-116/RJ;BR-116;RJ;;;;14;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 8 - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-08;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 9) - BR-116/RJ;BR-116;RJ;;;;10;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 9 - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-09;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 10) - BR-116/RJ;BR-116;RJ;;;;19;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 10 - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-10;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 11) - BR-116/RJ;BR-116;RJ;;;;14;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 11 - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-11;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 12) - BR-116/RJ;BR-116;RJ;;;;23;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 12 - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-12;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 13) - BR-116/RJ;BR-116;RJ;;;;10;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 13 - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-13;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 14) - BR-116/RJ;BR-116;RJ;;;;18;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 14 - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-14;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 1') - BR-116/RJ;BR-116;RJ;;;;8;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 1' - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-15;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 2') - BR-116/RJ;BR-116;RJ;;;;6;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 2' - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-16;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 3') - BR-116/RJ;BR-116;RJ;;;;11;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 3' - RJ BR-116), sem km;75;riominas_per_atualizado
+ERM-PER-ACE-17;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 4') - BR-116/RJ;BR-116;RJ;;;;8;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 4' - RJ BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-18;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 5') - BR-116/RJ;BR-116;RJ;;;;10;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 5' - RJ BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-19;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 6') - BR-116/RJ;BR-116;RJ;;;;11;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 6' - RJ BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-20;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 7') - BR-116/RJ;BR-116;RJ;;;;17;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 7' - RJ BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-21;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 8') - BR-116/RJ;BR-116;RJ;;;;21;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 8' - RJ BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-22;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 9') - BR-116/RJ;BR-116;RJ;;;;19;un;;5º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 9' - RJ BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-23;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 10') - BR-116/RJ;BR-116;RJ;;;;8;un;;5º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 10' - RJ BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-24;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 1) - BR-116/MG;BR-116;MG;;;;8;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 1 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-25;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 2) - BR-116/MG;BR-116;MG;;;;4;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 2 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-26;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 3) - BR-116/MG;BR-116;MG;;;;17;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 3 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-27;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 4) - BR-116/MG;BR-116;MG;;;;14;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 4 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-28;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 5) - BR-116/MG;BR-116;MG;;;;7;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 5 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-29;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 6) - BR-116/MG;BR-116;MG;;;;9;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 6 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-30;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 7) - BR-116/MG;BR-116;MG;;;;10;un;;5º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 7 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-31;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 8) - BR-116/MG;BR-116;MG;;;;5;un;;5º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 8 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-32;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 9) - BR-116/MG;BR-116;MG;;;;4;un;;5º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 9 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-33;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 11) - BR-116/MG;BR-116;MG;;;;19;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 11 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-34;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 12) - BR-116/MG;BR-116;MG;;;;17;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 12 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-35;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 13) - BR-116/MG;BR-116;MG;;;;10;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 13 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-36;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 14) - BR-116/MG;BR-116;MG;;;;16;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 14 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-37;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 15) - BR-116/MG;BR-116;MG;;;;14;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 15 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-38;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 16) - BR-116/MG;BR-116;MG;;;;37;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 16 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-39;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 18) - BR-116/MG;BR-116;MG;;;;24;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 18 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-40;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 19) - BR-116/MG;BR-116;MG;;;;4;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 19 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-41;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 20) - BR-116/MG;BR-116;MG;;;;14;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 20 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-42;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 21) - BR-116/MG;BR-116;MG;;;;5;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 21 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-43;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 22) - BR-116/MG;BR-116;MG;;;;37;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 22 - MG BR-116), sem km;76;riominas_per_atualizado
+ERM-PER-ACE-44;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 1) - BR-465/RJ;BR-465;RJ;;;;6;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 1 - RJ BR-465), sem km;77;riominas_per_atualizado
+ERM-PER-ACE-45;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 2) - BR-465/RJ;BR-465;RJ;;;;7;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 2 - RJ BR-465), sem km;77;riominas_per_atualizado
+ERM-PER-ACE-46;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 3) - BR-465/RJ;BR-465;RJ;;;;5;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 3 - RJ BR-465), sem km;77;riominas_per_atualizado
+ERM-PER-ACE-47;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 4) - BR-465/RJ;BR-465;RJ;;;;10;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 4 - RJ BR-465), sem km;77;riominas_per_atualizado
+ERM-PER-ACE-48;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 5) - BR-465/RJ;BR-465;RJ;;;;15;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 5 - RJ BR-465), sem km;77;riominas_per_atualizado
+ERM-PER-ACE-49;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 6) - BR-465/RJ;BR-465;RJ;;;;6;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 6 - RJ BR-465), sem km;77;riominas_per_atualizado
+ERM-PER-ACE-50;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 1) - BR-493/RJ;BR-493;RJ;;;;18;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 1 - RJ BR-493), sem km;77;riominas_per_atualizado
+ERM-PER-ACE-51;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 2) - BR-493/RJ;BR-493;RJ;;;;10;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 2 - RJ BR-493), sem km;77;riominas_per_atualizado
+ERM-PER-ACE-52;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 3) - BR-493/RJ;BR-493;RJ;;;;5;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 3 - RJ BR-493), sem km;77;riominas_per_atualizado
+ERM-PER-ACE-53;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 4) - BR-493/RJ;BR-493;RJ;;;;7;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 4 - RJ BR-493), sem km;77;riominas_per_atualizado
+ERM-PER-ACE-54;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 5) - BR-493/RJ;BR-493;RJ;;;;8;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 5 - RJ BR-493), sem km;77;riominas_per_atualizado
+ERM-PER-ACE-55;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 6) - BR-493/RJ;BR-493;RJ;;;;18;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 6 - RJ BR-493), sem km;77;riominas_per_atualizado
+ERM-PER-ACE-56;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 7) - BR-493/RJ;BR-493;RJ;;;;5;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 7 - RJ BR-493), sem km;77;riominas_per_atualizado
+ERM-PER-ACE-57;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 10) - BR-493/RJ;BR-493;RJ;;;;20;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 10 - RJ BR-493), sem km;77;riominas_per_atualizado
+ERM-PER-ACE-58;3.2.2.L;obrigatoria;melhoria_acesso;Acessos (segmento homogêneo 11) - BR-493/RJ;BR-493;RJ;;;;3;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 11 - RJ BR-493), sem km;77;riominas_per_atualizado
+ERM-PER-BRU-01;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 73,800;BR-116;RJ;73.8;;0.123;0.123;km;;6º;altura 3 m;77;riominas_per_atualizado
+ERM-PER-BRU-02;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 81,000;BR-116;RJ;81.0;;0.147;0.147;km;;6º;altura 3 m;77;riominas_per_atualizado
+ERM-PER-BRU-03;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 81,001;BR-116;RJ;81.001;;0.146;0.146;km;;6º;altura 3 m;77;riominas_per_atualizado
+ERM-PER-BRU-04;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 82,900;BR-116;RJ;82.9;;0.081;0.081;km;;6º;altura 3 m;77;riominas_per_atualizado
+ERM-PER-BRU-05;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 83,100;BR-116;RJ;83.1;;0.098;0.098;km;;6º;altura 3 m;77;riominas_per_atualizado
+ERM-PER-BRU-06;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 83,200;BR-116;RJ;83.2;;0.219;0.219;km;;6º;altura 3 m;77;riominas_per_atualizado
+ERM-PER-BRU-07;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 86,500;BR-116;RJ;86.5;;0.086;0.086;km;;6º;altura 3 m;77;riominas_per_atualizado
+ERM-PER-BRU-08;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 88,700;BR-116;RJ;88.7;;0.135;0.135;km;;6º;altura 3 m;77;riominas_per_atualizado
+ERM-PER-BRU-09;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 89,500;BR-116;RJ;89.5;;0.392;0.392;km;;6º;altura 3 m;77;riominas_per_atualizado
+ERM-PER-BRU-10;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 90,100;BR-116;RJ;90.1;;0.212;0.212;km;;6º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-11;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 102,600;BR-116;RJ;102.6;;0.151;0.151;km;;6º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-12;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 103,000;BR-116;RJ;103.0;;0.318;0.318;km;;6º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-13;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 103,500;BR-116;RJ;103.5;;0.093;0.093;km;;6º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-14;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 103,700;BR-116;RJ;103.7;;0.085;0.085;km;;6º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-15;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 171,300;BR-116;RJ;171.3;;0.252;0.252;km;;4º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-16;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 175,000;BR-116;RJ;175.0;;0.311;0.311;km;;4º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-17;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 176,700;BR-116;RJ;176.7;;0.141;0.141;km;;4º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-18;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 189,000;BR-116;RJ;189.0;;0.184;0.184;km;;4º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-19;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/RJ - km 191,500;BR-116;RJ;191.5;;0.158;0.158;km;;4º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-20;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/MG - km 562,100;BR-116;MG;562.1;;0.151;0.151;km;;6º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-21;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/MG - km 581,500;BR-116;MG;581.5;;0.108;0.108;km;;6º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-22;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/MG - km 607,500;BR-116;MG;607.5;;0.087;0.087;km;;6º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-23;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/MG - km 657,700;BR-116;MG;657.7;;0.105;0.105;km;;7º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-24;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/MG - km 767,500;BR-116;MG;767.5;;0.297;0.297;km;;8º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-25;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-116/MG - km 816,900;BR-116;MG;816.9;;0.104;0.104;km;;8º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-26;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-465/RJ - km 8,300;BR-465;RJ;8.3;;0.214;0.214;km;;8º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-27;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-465/RJ - km 8,500;BR-465;RJ;8.5;;0.311;0.311;km;;8º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-BRU-28;3.2.2.M;obrigatoria;barreira_ruido;Barreira de ruído - BR-493/RJ - km 5,100;BR-493;RJ;5.1;;0.268;0.268;km;;4º;altura 3 m;78;riominas_per_atualizado
+ERM-PER-CPP-01;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/RJ - km 57,100;BR-116;RJ;57.1;;;1;un;;6º;;79;riominas_per_atualizado
+ERM-PER-CPP-02;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/RJ - km 88,000;BR-116;RJ;88.0;;;1;un;;6º;;79;riominas_per_atualizado
+ERM-PER-CPP-03;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/RJ - km 92,100;BR-116;RJ;92.1;;;1;un;;6º;;79;riominas_per_atualizado
+ERM-PER-CPP-04;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/RJ - km 94,000;BR-116;RJ;94.0;;;1;un;;6º;;79;riominas_per_atualizado
+ERM-PER-CPP-05;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/RJ - km 95,400;BR-116;RJ;95.4;;;1;un;;6º;;79;riominas_per_atualizado
+ERM-PER-CPP-06;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/RJ - km 95,800;BR-116;RJ;95.8;;;1;un;;6º;;79;riominas_per_atualizado
+ERM-PER-CPP-07;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/RJ - km 97,300;BR-116;RJ;97.3;;;1;un;;6º;;79;riominas_per_atualizado
+ERM-PER-CPP-08;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/RJ - km 98,201;BR-116;RJ;98.201;;;1;un;;6º;;79;riominas_per_atualizado
+ERM-PER-CPP-09;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/RJ - km 98,700;BR-116;RJ;98.7;;;1;un;;6º;;79;riominas_per_atualizado
+ERM-PER-CPP-10;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/RJ - km 127,700;BR-116;RJ;127.7;;;1;un;;6º;;79;riominas_per_atualizado
+ERM-PER-CPP-11;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/RJ - km 166,700;BR-116;RJ;166.7;;;1;un;;4º;;79;riominas_per_atualizado
+ERM-PER-CPP-12;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/RJ - km 171,000;BR-116;RJ;171.0;;;1;un;;4º;;79;riominas_per_atualizado
+ERM-PER-CPP-13;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/RJ - km 198,000;BR-116;RJ;198.0;;;1;un;;5º;;79;riominas_per_atualizado
+ERM-PER-CPP-14;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/MG - km 414,500;BR-116;MG;414.5;;;1;un;;4º;;79;riominas_per_atualizado
+ERM-PER-CPP-15;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/MG - km 511,500;BR-116;MG;511.5;;;1;un;;4º;;79;riominas_per_atualizado
+ERM-PER-CPP-16;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/MG - km 522,000;BR-116;MG;522.0;;;1;un;;6º;;79;riominas_per_atualizado
+ERM-PER-CPP-17;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/MG - km 540,600;BR-116;MG;540.6;;;1;un;;6º;;79;riominas_per_atualizado
+ERM-PER-CPP-18;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/MG - km 608,500;BR-116;MG;608.5;;;1;un;;7º;;79;riominas_per_atualizado
+ERM-PER-CPP-19;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/MG - km 672,600;BR-116;MG;672.6;;;1;un;;7º;;79;riominas_per_atualizado
+ERM-PER-CPP-20;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/MG - km 703,500;BR-116;MG;703.5;;;1;un;;6º;;79;riominas_per_atualizado
+ERM-PER-CPP-21;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/MG - km 735,400;BR-116;MG;735.4;;;1;un;;7º;;79;riominas_per_atualizado
+ERM-PER-CPP-22;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-116/MG - km 810,700;BR-116;MG;810.7;;;1;un;;8º;;79;riominas_per_atualizado
+ERM-PER-CPP-23;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-465/RJ - km 15,500;BR-465;RJ;15.5;;;1;un;;8º;;79;riominas_per_atualizado
+ERM-PER-CPP-24;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-493/RJ - km 10,400;BR-493;RJ;10.4;;;1;un;;4º;;80;riominas_per_atualizado
+ERM-PER-CPP-25;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-493/RJ - km 24,500;BR-493;RJ;24.5;;;1;un;;4º;;80;riominas_per_atualizado
+ERM-PER-CPP-26;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-493/RJ - km 87,400;BR-493;RJ;87.4;;;1;un;;8º;;80;riominas_per_atualizado
+ERM-PER-CPP-27;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-493/RJ - km 98,200;BR-493;RJ;98.2;;;1;un;;8º;;80;riominas_per_atualizado
+ERM-PER-CPP-28;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-493/RJ - km 98,500;BR-493;RJ;98.5;;;1;un;;8º;;80;riominas_per_atualizado
+ERM-PER-CPP-29;3.2.2.N;obrigatoria;caixa_produto_perigoso;Caixa de produtos perigosos - BR-493/RJ - km 122,400;BR-493;RJ;122.4;;;1;un;;8º;;80;riominas_per_atualizado
+ERM-PER-FAU-01;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/RJ - km 24,600;BR-116;RJ;24.6;;;1;un;;8º;;80;riominas_per_atualizado
+ERM-PER-FAU-02;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/RJ - km 34,100;BR-116;RJ;34.1;;;1;un;;8º;;80;riominas_per_atualizado
+ERM-PER-FAU-03;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/RJ - km 51,000;BR-116;RJ;51.0;;;1;un;;7º;;80;riominas_per_atualizado
+ERM-PER-FAU-04;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/RJ - km 53,000;BR-116;RJ;53.0;;;1;un;;7º;;80;riominas_per_atualizado
+ERM-PER-FAU-05;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/RJ - km 57,100;BR-116;RJ;57.1;;;1;un;;6º;;80;riominas_per_atualizado
+ERM-PER-FAU-06;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/RJ - km 93,000;BR-116;RJ;93.0;;;1;un;;6º;;80;riominas_per_atualizado
+ERM-PER-FAU-07;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/RJ - km 93,500;BR-116;RJ;93.5;;;1;un;;6º;;80;riominas_per_atualizado
+ERM-PER-FAU-08;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/RJ - km 94,000;BR-116;RJ;94.0;;;1;un;;6º;;80;riominas_per_atualizado
+ERM-PER-FAU-09;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/RJ - km 94,400;BR-116;RJ;94.4;;;1;un;;6º;;80;riominas_per_atualizado
+ERM-PER-FAU-10;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/RJ - km 95,400;BR-116;RJ;95.4;;;1;un;;6º;;80;riominas_per_atualizado
+ERM-PER-FAU-11;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/RJ - km 100,600;BR-116;RJ;100.6;;;1;un;;6º;;80;riominas_per_atualizado
+ERM-PER-FAU-12;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/RJ - km 101,700;BR-116;RJ;101.7;;;1;un;;6º;;80;riominas_per_atualizado
+ERM-PER-FAU-13;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/RJ - km 103,000;BR-116;RJ;103.0;;;1;un;;6º;;80;riominas_per_atualizado
+ERM-PER-FAU-14;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/RJ - km 120,100;BR-116;RJ;120.1;;;1;un;;8º;;80;riominas_per_atualizado
+ERM-PER-FAU-15;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/RJ - km 124,500;BR-116;RJ;124.5;;;1;un;;6º;;80;riominas_per_atualizado
+ERM-PER-FAU-16;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 424,500;BR-116;MG;424.5;;;1;un;;6º;;80;riominas_per_atualizado
+ERM-PER-FAU-17;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 427,000;BR-116;MG;427.0;;;1;un;;6º;;80;riominas_per_atualizado
+ERM-PER-FAU-18;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 430,400;BR-116;MG;430.4;;;1;un;;6º;;80;riominas_per_atualizado
+ERM-PER-FAU-19;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 437,000;BR-116;MG;437.0;;;1;un;;6º;;80;riominas_per_atualizado
+ERM-PER-FAU-20;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 439,500;BR-116;MG;439.5;;;1;un;;6º;;80;riominas_per_atualizado
+ERM-PER-FAU-21;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 459,000;BR-116;MG;459.0;;;1;un;;8º;;81;riominas_per_atualizado
+ERM-PER-FAU-22;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 460,000;BR-116;MG;460.0;;;1;un;;8º;;81;riominas_per_atualizado
+ERM-PER-FAU-23;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 461,600;BR-116;MG;461.6;;;1;un;;8º;;81;riominas_per_atualizado
+ERM-PER-FAU-24;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 464,100;BR-116;MG;464.1;;;1;un;;8º;;81;riominas_per_atualizado
+ERM-PER-FAU-25;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 466,000;BR-116;MG;466.0;;;1;un;;8º;;81;riominas_per_atualizado
+ERM-PER-FAU-26;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 468,000;BR-116;MG;468.0;;;1;un;;8º;;81;riominas_per_atualizado
+ERM-PER-FAU-27;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 475,600;BR-116;MG;475.6;;;1;un;;7º;;81;riominas_per_atualizado
+ERM-PER-FAU-28;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 487,000;BR-116;MG;487.0;;;1;un;;6º;;81;riominas_per_atualizado
+ERM-PER-FAU-29;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 495,300;BR-116;MG;495.3;;;1;un;;6º;;81;riominas_per_atualizado
+ERM-PER-FAU-30;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 517,600;BR-116;MG;517.6;;;1;un;;5º;;81;riominas_per_atualizado
+ERM-PER-FAU-31;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 544,100;BR-116;MG;544.1;;;1;un;;7º;;81;riominas_per_atualizado
+ERM-PER-FAU-32;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 557,200;BR-116;MG;557.2;;;1;un;;7º;;81;riominas_per_atualizado
+ERM-PER-FAU-33;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 571,500;BR-116;MG;571.5;;;1;un;;6º;;81;riominas_per_atualizado
+ERM-PER-FAU-34;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 583,000;BR-116;MG;583.0;;;1;un;;6º;;81;riominas_per_atualizado
+ERM-PER-FAU-35;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 590,600;BR-116;MG;590.6;;;1;un;;6º;;81;riominas_per_atualizado
+ERM-PER-FAU-36;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 597,000;BR-116;MG;597.0;;;1;un;;6º;;81;riominas_per_atualizado
+ERM-PER-FAU-37;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 600,400;BR-116;MG;600.4;;;1;un;;6º;;81;riominas_per_atualizado
+ERM-PER-FAU-38;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 627,300;BR-116;MG;627.3;;;1;un;;7º;;81;riominas_per_atualizado
+ERM-PER-FAU-39;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 637,400;BR-116;MG;637.4;;;1;un;;7º;;81;riominas_per_atualizado
+ERM-PER-FAU-40;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 644,300;BR-116;MG;644.3;;;1;un;;7º;;81;riominas_per_atualizado
+ERM-PER-FAU-41;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 649,500;BR-116;MG;649.5;;;1;un;;7º;;81;riominas_per_atualizado
+ERM-PER-FAU-42;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 657,500;BR-116;MG;657.5;;;1;un;;7º;;81;riominas_per_atualizado
+ERM-PER-FAU-43;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 661,700;BR-116;MG;661.7;;;1;un;;7º;;81;riominas_per_atualizado
+ERM-PER-FAU-44;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 671,500;BR-116;MG;671.5;;;1;un;;7º;;81;riominas_per_atualizado
+ERM-PER-FAU-45;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 716,500;BR-116;MG;716.5;;;1;un;;7º;;81;riominas_per_atualizado
+ERM-PER-FAU-46;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 723,700;BR-116;MG;723.7;;;1;un;;7º;;81;riominas_per_atualizado
+ERM-PER-FAU-47;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 728,600;BR-116;MG;728.6;;;1;un;;7º;;81;riominas_per_atualizado
+ERM-PER-FAU-48;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 744,300;BR-116;MG;744.3;;;1;un;;7º;;81;riominas_per_atualizado
+ERM-PER-FAU-49;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 786,400;BR-116;MG;786.4;;;1;un;;8º;;81;riominas_per_atualizado
+ERM-PER-FAU-50;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 790,000;BR-116;MG;790.0;;;1;un;;8º;;81;riominas_per_atualizado
+ERM-PER-FAU-51;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 796,300;BR-116;MG;796.3;;;1;un;;8º;;81;riominas_per_atualizado
+ERM-PER-FAU-52;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 803,100;BR-116;MG;803.1;;;1;un;;8º;;81;riominas_per_atualizado
+ERM-PER-FAU-53;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-116/MG - km 812,500;BR-116;MG;812.5;;;1;un;;8º;;81;riominas_per_atualizado
+ERM-PER-FAU-54;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-465/RJ - km 1,500;BR-465;RJ;1.5;;;1;un;;8º;;81;riominas_per_atualizado
+ERM-PER-FAU-55;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-493/RJ - km 77,100;BR-493;RJ;77.1;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-FAU-56;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-493/RJ - km 98,500;BR-493;RJ;98.5;;;1;un;;8º;;82;riominas_per_atualizado
+ERM-PER-FAU-57;3.2.2.O;obrigatoria;passagem_fauna;Passagem de fauna - BR-493/RJ - km 110,200;BR-493;RJ;110.2;;;1;un;;8º;;82;riominas_per_atualizado
+ERM-PER-PAS-01;3.2.2.P;obrigatoria;passarela;Passarela (Vão 30 m) - BR-116/RJ - km 47,800;BR-116;RJ;47.8;;;1;un;;7º;;82;riominas_per_atualizado
+ERM-PER-PAS-02;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-116/RJ - km 68,100;BR-116;RJ;68.1;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-03;3.2.2.P;obrigatoria;passarela;Passarela (Vão 30 m) - BR-116/RJ - km 104,500;BR-116;RJ;104.5;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-04;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 107,952;BR-116;RJ;107.952;;;1;un;;8º;;82;riominas_per_atualizado
+ERM-PER-PAS-05;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 108,827;BR-116;RJ;108.827;;;1;un;;8º;;82;riominas_per_atualizado
+ERM-PER-PAS-06;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 109,147;BR-116;RJ;109.147;;;1;un;;8º;;82;riominas_per_atualizado
+ERM-PER-PAS-07;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 113,333;BR-116;RJ;113.333;;;1;un;;8º;;82;riominas_per_atualizado
+ERM-PER-PAS-08;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 115,321;BR-116;RJ;115.321;;;1;un;;8º;;82;riominas_per_atualizado
+ERM-PER-PAS-09;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 121,537;BR-116;RJ;121.537;;;1;un;;8º;;82;riominas_per_atualizado
+ERM-PER-PAS-10;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 123,656;BR-116;RJ;123.656;;;1;un;;8º;;82;riominas_per_atualizado
+ERM-PER-PAS-11;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 124,714;BR-116;RJ;124.714;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-12;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 127,748;BR-116;RJ;127.748;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-13;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 128,819;BR-116;RJ;128.819;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-14;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 129,259;BR-116;RJ;129.259;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-15;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 131,343;BR-116;RJ;131.343;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-16;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 132,806;BR-116;RJ;132.806;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-17;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 135,883;BR-116;RJ;135.883;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-18;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 137,076;BR-116;RJ;137.076;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-19;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 137,606;BR-116;RJ;137.606;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-20;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 138,083;BR-116;RJ;138.083;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-21;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 138,376;BR-116;RJ;138.376;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-22;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-116/RJ - km 139,214;BR-116;RJ;139.214;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-23;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-116/RJ - km 139,470;BR-116;RJ;139.47;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-24;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 139,644;BR-116;RJ;139.644;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-25;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 140,353;BR-116;RJ;140.353;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-26;3.2.2.P;obrigatoria;passarela;Passarela (Vão 40 m) - BR-116/RJ - km 143,272;BR-116;RJ;143.272;;;1;un;;6º;;82;riominas_per_atualizado
+ERM-PER-PAS-27;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-116/RJ - km 143,855;BR-116;RJ;143.855;;;1;un;;6º;;83;riominas_per_atualizado
+ERM-PER-PAS-28;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-116/RJ - km 144,504;BR-116;RJ;144.504;;;1;un;;6º;;83;riominas_per_atualizado
+ERM-PER-PAS-29;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-116/RJ - km 145,018;BR-116;RJ;145.018;;;1;un;;6º;;83;riominas_per_atualizado
+ERM-PER-PAS-30;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 162,627;BR-116;RJ;162.627;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-31;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 163,632;BR-116;RJ;163.632;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-32;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 164,155;BR-116;RJ;164.155;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-33;3.2.2.P;obrigatoria;passarela;Passarela (Vão 95 m) - BR-116/RJ - km 165,192;BR-116;RJ;165.192;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-34;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 166,429;BR-116;RJ;166.429;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-35;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 167,848;BR-116;RJ;167.848;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-36;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 169,104;BR-116;RJ;169.104;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-37;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 170,522;BR-116;RJ;170.522;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-38;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 173,206;BR-116;RJ;173.206;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-39;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 173,806;BR-116;RJ;173.806;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-40;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 175,029;BR-116;RJ;175.029;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-41;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 175,947;BR-116;RJ;175.947;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-42;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 179,745;BR-116;RJ;179.745;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-43;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 180,426;BR-116;RJ;180.426;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-44;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 181,198;BR-116;RJ;181.198;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-45;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 182,864;BR-116;RJ;182.864;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-46;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-116/RJ - km 184,416;BR-116;RJ;184.416;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-47;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-116/RJ - km 186,577;BR-116;RJ;186.577;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-48;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 189,917;BR-116;RJ;189.917;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-49;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/RJ - km 195,418;BR-116;RJ;195.418;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-50;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/MG - km 410,350;BR-116;MG;410.35;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-51;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/MG - km 411,588;BR-116;MG;411.588;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-52;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/MG - km 412,996;BR-116;MG;412.996;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-53;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/MG - km 413,735;BR-116;MG;413.735;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-54;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/MG - km 415,692;BR-116;MG;415.692;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-55;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/MG - km 416,557;BR-116;MG;416.557;;;1;un;;4º;;83;riominas_per_atualizado
+ERM-PER-PAS-56;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-116/MG - km 456,758;BR-116;MG;456.758;;;1;un;;6º;;83;riominas_per_atualizado
+ERM-PER-PAS-57;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/MG - km 508,964;BR-116;MG;508.964;;;1;un;;5º;;83;riominas_per_atualizado
+ERM-PER-PAS-58;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-116/MG - km 525,500;BR-116;MG;525.5;;;1;un;;5º;;83;riominas_per_atualizado
+ERM-PER-PAS-59;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-116/MG - km 528,750;BR-116;MG;528.75;;;1;un;;7º;;83;riominas_per_atualizado
+ERM-PER-PAS-60;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-116/MG - km 538,200;BR-116;MG;538.2;;;1;un;;7º;;83;riominas_per_atualizado
+ERM-PER-PAS-61;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/MG - km 607,659;BR-116;MG;607.659;;;1;un;;6º;;84;riominas_per_atualizado
+ERM-PER-PAS-62;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/MG - km 651,442;BR-116;MG;651.442;;;1;un;;7º;;84;riominas_per_atualizado
+ERM-PER-PAS-63;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/MG - km 702,930;BR-116;MG;702.93;;;1;un;;6º;;84;riominas_per_atualizado
+ERM-PER-PAS-64;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/MG - km 704,342;BR-116;MG;704.342;;;1;un;;7º;;84;riominas_per_atualizado
+ERM-PER-PAS-65;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/MG - km 706,276;BR-116;MG;706.276;;;1;un;;7º;;84;riominas_per_atualizado
+ERM-PER-PAS-66;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/MG - km 763,951;BR-116;MG;763.951;;;1;un;;8º;;84;riominas_per_atualizado
+ERM-PER-PAS-67;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/MG - km 764,352;BR-116;MG;764.352;;;1;un;;8º;;84;riominas_per_atualizado
+ERM-PER-PAS-68;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-116/MG - km 767,260;BR-116;MG;767.26;;;1;un;;8º;;84;riominas_per_atualizado
+ERM-PER-PAS-69;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-116/MG - km 768,630;BR-116;MG;768.63;;;1;un;;8º;;84;riominas_per_atualizado
+ERM-PER-PAS-70;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-116/MG - km 816,300;BR-116;MG;816.3;;;1;un;;8º;;84;riominas_per_atualizado
+ERM-PER-PAS-71;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-465/RJ - km 5,650;BR-465;RJ;5.65;;;1;un;;8º;;84;riominas_per_atualizado
+ERM-PER-PAS-72;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-465/RJ - km 6,228;BR-465;RJ;6.228;;;1;un;;8º;;84;riominas_per_atualizado
+ERM-PER-PAS-73;3.2.2.P;obrigatoria;passarela;Passarela (Vão 70 m) - BR-493/RJ - km 0,170;BR-493;RJ;0.17;;;1;un;;4º;;84;riominas_per_atualizado
+ERM-PER-PAS-74;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-493/RJ - km 1,300;BR-493;RJ;1.3;;;1;un;;4º;;84;riominas_per_atualizado
+ERM-PER-PAS-75;3.2.2.P;obrigatoria;passarela;Passarela (Vão 50 m) - BR-493/RJ - km 17,900;BR-493;RJ;17.9;;;1;un;;4º;;84;riominas_per_atualizado
+ERM-PER-ONI-01;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 1) - BR-116/RJ;BR-116;RJ;;;;12;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 1 - RJ BR-116), sem km;84;riominas_per_atualizado
+ERM-PER-ONI-02;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 3) - BR-116/RJ;BR-116;RJ;;;;6;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 3 - RJ BR-116), sem km;84;riominas_per_atualizado
+ERM-PER-ONI-03;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 4) - BR-116/RJ;BR-116;RJ;;;;10;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 4 - RJ BR-116), sem km;84;riominas_per_atualizado
+ERM-PER-ONI-04;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 6) - BR-116/RJ;BR-116;RJ;;;;20;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 6 - RJ BR-116), sem km;84;riominas_per_atualizado
+ERM-PER-ONI-05;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 7) - BR-116/RJ;BR-116;RJ;;;;18;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 7 - RJ BR-116), sem km;84;riominas_per_atualizado
+ERM-PER-ONI-06;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 8) - BR-116/RJ;BR-116;RJ;;;;6;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 8 - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-07;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 9) - BR-116/RJ;BR-116;RJ;;;;6;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 9 - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-08;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 10) - BR-116/RJ;BR-116;RJ;;;;10;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 10 - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-09;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 11) - BR-116/RJ;BR-116;RJ;;;;6;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 11 - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-10;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 12) - BR-116/RJ;BR-116;RJ;;;;14;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 12 - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-11;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 13) - BR-116/RJ;BR-116;RJ;;;;6;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 13 - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-12;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 14) - BR-116/RJ;BR-116;RJ;;;;12;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 14 - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-13;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 1') - BR-116/RJ;BR-116;RJ;;;;6;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 1' - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-14;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 2') - BR-116/RJ;BR-116;RJ;;;;4;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 2' - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-15;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 3') - BR-116/RJ;BR-116;RJ;;;;8;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 3' - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-16;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 4') - BR-116/RJ;BR-116;RJ;;;;6;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 4' - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-17;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 5') - BR-116/RJ;BR-116;RJ;;;;6;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 5' - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-18;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 6') - BR-116/RJ;BR-116;RJ;;;;8;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 6' - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-19;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 7') - BR-116/RJ;BR-116;RJ;;;;10;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 7' - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-20;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 8') - BR-116/RJ;BR-116;RJ;;;;14;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 8' - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-21;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 9') - BR-116/RJ;BR-116;RJ;;;;12;un;;5º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 9' - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-22;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 10') - BR-116/RJ;BR-116;RJ;;;;6;un;;5º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 10' - RJ BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-23;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 1) - BR-116/MG;BR-116;MG;;;;6;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 1 - MG BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-24;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 3) - BR-116/MG;BR-116;MG;;;;6;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 3 - MG BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-25;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 4) - BR-116/MG;BR-116;MG;;;;8;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 4 - MG BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-26;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 5) - BR-116/MG;BR-116;MG;;;;2;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 5 - MG BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-27;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 6) - BR-116/MG;BR-116;MG;;;;4;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 6 - MG BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-28;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 7) - BR-116/MG;BR-116;MG;;;;4;un;;5º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 7 - MG BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-29;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 8) - BR-116/MG;BR-116;MG;;;;4;un;;5º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 8 - MG BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-30;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 9) - BR-116/MG;BR-116;MG;;;;4;un;;5º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 9 - MG BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-31;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 11) - BR-116/MG;BR-116;MG;;;;10;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 11 - MG BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-32;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 12) - BR-116/MG;BR-116;MG;;;;8;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 12 - MG BR-116), sem km;85;riominas_per_atualizado
+ERM-PER-ONI-33;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 13) - BR-116/MG;BR-116;MG;;;;4;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 13 - MG BR-116), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-34;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 14) - BR-116/MG;BR-116;MG;;;;6;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 14 - MG BR-116), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-35;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 15) - BR-116/MG;BR-116;MG;;;;8;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 15 - MG BR-116), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-36;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 16) - BR-116/MG;BR-116;MG;;;;20;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 16 - MG BR-116), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-37;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 18) - BR-116/MG;BR-116;MG;;;;12;un;;7º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 18 - MG BR-116), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-38;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 20) - BR-116/MG;BR-116;MG;;;;6;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 20 - MG BR-116), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-39;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 21) - BR-116/MG;BR-116;MG;;;;2;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 21 - MG BR-116), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-40;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 22) - BR-116/MG;BR-116;MG;;;;22;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 22 - MG BR-116), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-41;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 23) - BR-116/MG;BR-116;MG;;;;8;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 23 - MG BR-116), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-42;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 1) - BR-465/RJ;BR-465;RJ;;;;8;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 1 - RJ BR-465), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-43;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 2) - BR-465/RJ;BR-465;RJ;;;;4;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 2 - RJ BR-465), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-44;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 3) - BR-465/RJ;BR-465;RJ;;;;4;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 3 - RJ BR-465), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-45;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 4) - BR-465/RJ;BR-465;RJ;;;;12;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 4 - RJ BR-465), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-46;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 5) - BR-465/RJ;BR-465;RJ;;;;6;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 5 - RJ BR-465), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-47;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 6) - BR-465/RJ;BR-465;RJ;;;;6;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 6 - RJ BR-465), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-48;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 1) - BR-493/RJ;BR-493;RJ;;;;14;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 1 - RJ BR-493), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-49;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 2) - BR-493/RJ;BR-493;RJ;;;;8;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 2 - RJ BR-493), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-50;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 3) - BR-493/RJ;BR-493;RJ;;;;4;un;;4º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 3 - RJ BR-493), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-51;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 4) - BR-493/RJ;BR-493;RJ;;;;4;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 4 - RJ BR-493), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-52;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 5) - BR-493/RJ;BR-493;RJ;;;;6;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 5 - RJ BR-493), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-53;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 6) - BR-493/RJ;BR-493;RJ;;;;14;un;;6º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 6 - RJ BR-493), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-54;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 7) - BR-493/RJ;BR-493;RJ;;;;4;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 7 - RJ BR-493), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-55;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 10) - BR-493/RJ;BR-493;RJ;;;;16;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 10 - RJ BR-493), sem km;86;riominas_per_atualizado
+ERM-PER-ONI-56;3.2.2.Q;obrigatoria;ponto_onibus;Pontos de ônibus (segmento homogêneo 11) - BR-493/RJ;BR-493;RJ;;;;2;un;;8º;PER dá só a quantidade por segmento homogêneo (SEGMENTO 11 - RJ BR-493), sem km;86;riominas_per_atualizado
+ERM-PER-CIC-01;3.2.2.R;obrigatoria;ciclovia;Ciclovia - BR-116/RJ - km 105,700 ao km 107,330;BR-116;RJ;105.7;107.33;1.63;1.63;km;;5º;;87;riominas_per_atualizado
+ERM-PER-DIV-01;3.2.2.S;obrigatoria;divisor_central;Divisor central com barreira rígida (pista simples) - BR-116/RJ - km 102,350 ao km 102,620;BR-116;RJ;102.35;102.62;0.27;0.27;km;;2º;;87;riominas_per_atualizado
