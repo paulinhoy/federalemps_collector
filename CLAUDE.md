@@ -12,7 +12,9 @@ O objetivo do projeto, a estrutura e como rodar estão no `README.md`. A situaç
 - Não somar tipos de valor diferentes: `inicial_leilao`, `inicial_inclusao`, `aprovado_revisao`, `estimativa_concessionaria` e `realizado`.
 - Valores transcritos de PDFs vão para `valores_obras/*_manuais.csv`. Ligações obra ↔ valor feitas à mão vão para `correspondencias_manuais.csv`, sempre com a justificativa.
 - Tudo em `dados/` é gerado e fica fora do git.
-- Ordem de execução: `baixar.py` → `consolidar.py` → `organizar.py`.
+- Ordem de execução: `baixar.py` → `consolidar.py` → `organizar.py` → por concessão, em `per_obras/`: `extrair_modelo_<conc>.py` → `montar_cadastro_<conc>.py` → `acompanhamento_financeiro_<conc>.py` (`<conc>` = `eco050`, `cerrado`). A lógica do financeiro é comum (`per_obras/financeiro_comum.py`). Rio Minas, só ligação PER x acompanhamento: `gerar_per_riominas_manuais.py` → `ligar_per_riominas.py` (regras em `per_obras/ligacao_riominas.md`; o km do acompanhamento é deslocado em relação ao PER e é corrigido antes de comparar).
+- Tabelas finais em `dados/finais/<tabela>/` (`cadastro_obras`, `financeiro_mensal`, `financeiro_acumulado`, `financeiro_resumo`, `xlsx`, `ligacao_per_acompanhamento`); extrações do modelo em `dados/per_obras/intermediario/`. Caminhos sempre por `per_obras/caminhos.py` (`caminho_final(tabela, conc, ext)`, `caminho_modelo(conc, parte)`).
+- Cadastro de obras (`per_obras/`): uma obra do PER dividida em n linhas guarda `per_id_origem` e `fracao_da_origem`; levar isso em conta ao ligar dados financeiros às obras. Dicionário das colunas em `per_obras/dicionario_colunas.md`.
 
 ## Portal da ANTT (gov.br, Plone)
 - O link de download é o link do item sem o `/view` no final.

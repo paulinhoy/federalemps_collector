@@ -1,0 +1,60 @@
+﻿id_obra;per_id_origem;fracao_da_origem;ref_alteracoes;km_inicial;km_final;uf;municipio;obra_id_acompanhamento;a_confirmar;justificativa
+EMG-PER-PAS-01;EMG-PER-PAS-01;;Passarela 1 km 40,5 (Araguari/MG);171;;MG;Uberaba;EMG-0025;False;"Verificado: 6º TA (22/04/2025) cl. 2.1 e 3.1 p.2 leva a ID-1 para o km 171. A série do acompanhamento no km 171 é a EMG-0025 (Planilha base abr/2026 linha 13: km 171, 32,5% executado; acompanhamento abr/2026: mesma obra com 32,5%). A concessionária rotula ao contrário ('Antigo ID 07 279,5'), mas vale o aditivo."
+EMG-PER-PAS-07;EMG-PER-PAS-07;;Passarela 7 km 279,5 (Catalão/GO);175;;MG;Uberaba;EMG-0026;False;"Verificado: 6º TA (22/04/2025) cl. 2.1 e 3.1 p.2 leva a ID-7 para o km 175. A série do acompanhamento no km 175 é a EMG-0026 (Planilha base abr/2026 linha 14: km 175, 37,5% executado; acompanhamento abr/2026: mesma obra com 37,5%). A concessionária rotula ao contrário ('Antigo ID 01 40,5'), mas vale o aditivo."
+EMG-PER-PAS-02;EMG-PER-PAS-02;;Passarela 2 km 179,0 (Uberaba/MG);;;;;;False;Realocação 179,0 -> 182 (alteracoes).
+EMG-PER-PAS-03;EMG-PER-PAS-03;;Passarela 3 km 101,0 (Cristalina/GO);;;;;EMG-0023;False;Mesmo km atual (97,9) do acompanhamento.
+EMG-PER-PAS-04;EMG-PER-PAS-04;;Passarela 4 km 96,4 (Cristalina/GO);;;;;EMG-0021;False;Mesmo km atual (96,1).
+EMG-PER-PAS-05;EMG-PER-PAS-05;;Passarela 5 km 98,7 (Cristalina/GO);;;;;EMG-0022;False;Mesmo km atual (97,3).
+EMG-PER-PAS-06;EMG-PER-PAS-06;;Passarela 6 km 277,5 (Catalão/GO);277.5;;;;EMG-0024;True;"Mantido km 277,5 (oficial: PER, acompanhamento e PA2026). alteracoes indica 278,9 (Relatório 12/2025 p.13; ata 14/05/2026) por inferência."
+EMG-PER-DIA-02;EMG-PER-DIA-02;;Interconexão diamante 2 km 131,3 (Uberaba/MG);;;GO;Cristalina;EMG-0011;False;Realocado de Uberaba km 131,3 para Cristalina km 98,5 (alteracoes).
+EMG-PER-DIA-05;EMG-PER-DIA-05;;Interconexão diamante 5 km 97,3 (Cristalina/GO);;;;;EMG-0010;False;Mesmo km atual (96,7).
+EMG-PER-RET-01;EMG-PER-RET-01;;Retorno em desnível 1 km 101,0 (Uberlândia/MG no PER);;;GO;Cristalina;EMG-0012;False;Realocado de Uberlândia km 101,0 para Cristalina km 102,5 (alteracoes).
+EMG-PER-TRB-01;EMG-PER-TRB-01;;Interconexão trombeta 1 km 4,0 (Araguari/MG);;;GO;Catalão;EMG-0015;False;Realocada de Araguari km 4,0 para Catalão km 280,615 (alteracoes).
+EMG-PER-TRB-02;EMG-PER-TRB-02;;Interconexão trombeta 2 km 22,0 (Araguari/MG);;;GO;Catalão;;True;"Realocada de Araguari km 22,0 para Catalão km 273,45; data de conclusão inferida (marco 'Trombeta km 273+200')."
+EMG-PER-DIA-14;EMG-PER-DIA-14;;Interconexão diamante 14 km 273,2;;;;;EMG-0014;False;Mesmo km atual (277,95).
+EMG-PER-DIA-15;EMG-PER-DIA-15;;Interconexão diamante 15 km 280,5;;;;;EMG-0016;False;Mesmo km atual (280,3).
+EMG-PER-DIA-03;EMG-PER-DIA-03;;Interconexão diamante 3 km 140,3 (Uberaba/MG);;;GO;Catalão;EMG-0017;False;"Realocado de Uberaba km 140,3 para Catalão km 283,05 (alteracoes). Renumeração após correção do vínculo por km (consolidar.py, TOL_KM_VINCULO)."
+EMG-PER-DIA-01;EMG-PER-DIA-01;;Interconexão diamante 1 km 124,0 (Uberaba/MG);;;;;;False;Realocação 124,0 -> 116 (alteracoes).
+EMG-PER-DIA-04;EMG-PER-DIA-04;;Interconexão diamante 4 km 151,5 (Uberaba/MG);;;;;EMG-0018;True;"Mesmo km (151,5); localização em definição (PA2024/Quinquenal). Série km 151,5 sempre 0%. Renumeração após correção do vínculo por km (consolidar.py, TOL_KM_VINCULO)."
+EMG-PER-DIA-06;EMG-PER-DIA-06;;Interconexão diamante 6 km 111,7;;;;;;False;Ajuste de km no projeto (alteracoes).
+EMG-PER-DIA-07;EMG-PER-DIA-07;;Interconexão diamante 7 km 119,2;;;;;;False;Ajuste de km no projeto (alteracoes).
+EMG-PER-DIA-08;EMG-PER-DIA-08;;Interconexão diamante 8 km 187,0;;;;;;False;Ajuste de km no projeto (alteracoes).
+EMG-PER-DIA-09;EMG-PER-DIA-09;;Interconexão diamante 9 km 202,4;;;;;;False;Ajuste de km no projeto (alteracoes).
+EMG-PER-DIA-10;EMG-PER-DIA-10;;Interconexão diamante 10 km 207,6;;;;;;False;Ajuste de km no projeto (alteracoes).
+EMG-PER-DIA-11;EMG-PER-DIA-11;;Interconexão diamante 11 km 209,8;;;;;;False;Ajuste de km no projeto (alteracoes).
+EMG-PER-DIA-12;EMG-PER-DIA-12;;Interconexão diamante 12 km 245,4;;;;;;False;Ajuste de km no projeto (alteracoes).
+EMG-PER-DIA-13;EMG-PER-DIA-13;;Interconexão diamante 13 km 270,1;;;;;;False;Ajuste de km no projeto (alteracoes).
+EMG-PER-DIA-16;EMG-PER-DIA-16;;Interconexão diamante 16 km 296,0;;;;;;False;Ajuste de km no projeto (alteracoes).
+EMG-PER-TRB-04;EMG-PER-TRB-04;;Interconexão trombeta 4 km 125,2;;;;;;False;Ajuste de km no projeto (alteracoes).
+EMG-PER-TRB-05;EMG-PER-TRB-05;;Interconexão trombeta 5 km 154,5;;;;;;False;Ajuste de km no projeto (alteracoes).
+EMG-PER-TRB-06;EMG-PER-TRB-06;;Interconexão trombeta 6 km 163,5;;;;;;False;Ajuste de km no projeto (alteracoes).
+EMG-PER-TRB-07;EMG-PER-TRB-07;;Interconexão trombeta 7 km 265,1;;;;;;False;Ajuste de km no projeto (alteracoes).
+EMG-PER-TRB-08;EMG-PER-TRB-08;;Interconexão trombeta 8 km 311,7;;;;;;False;Ajuste de km no projeto (alteracoes).
+EMG-PER-RET-05;EMG-PER-RET-05;;Retorno em desnível 5 km 255,0;;;;;;False;Km e datas de alteracoes.
+EMG-PER-RET-02;EMG-PER-RET-02;;Retorno em desnível 2 km 140,0;;;;;;False;Km e datas de alteracoes.
+EMG-PER-RET-03;EMG-PER-RET-03;;Retorno em desnível 3 km 222,0;;;;;;False;Km e datas de alteracoes.
+EMG-PER-RET-04;EMG-PER-RET-04;;Retorno em desnível 4 km 233,0;;;;;;False;Km e datas de alteracoes.
+EMG-PER-MAR-02-a;EMG-PER-MAR-02;0.509091;Via marginal 2 km 98,0-100,8 (Cristalina) - sentido Sul;;;;;EMG-0005;False;"Marginal ID-2 (Sul 2,8 km + Norte 2,7 km no PER) virou duas obras no acompanhamento; fração = extensão útil do sentido no PER (2,8/5,5). Recebeu os saldos das marginais ID-3, ID-4 e 450 m da ID-6 (excluídas)."
+EMG-PER-MAR-02-b;EMG-PER-MAR-02;0.490909;Via marginal 2 km 98,0-100,8 (Cristalina) - sentido Norte;;;;;EMG-0006;False;"Sentido Norte da marginal ID-2; fração 2,7/5,5."
+EMG-PER-MAR-07;EMG-PER-MAR-07;;Via marginal 7 km 276,5-280,5 (Catalão) - Norte;;;;;EMG-0007;False;"Reconfigurada (277,3-283,1, sentido Norte); recebeu 800 m da ID-6."
+EMG-PER-MAR-08;EMG-PER-MAR-08;;Via marginal 8 km 276,9-283,1 (Catalão) - Sul;;;;;EMG-0008;False;Reconfigurada (277,3-283,1, sentido Sul).
+EMG-PER-MAR-01;EMG-PER-MAR-01;;Via marginal 1 km 40,0-41,0 (Araguari/MG);;;;;EMG-0009;True;"Mesmo km (40-41); localização a definir (PA2024 L102; PA2026 'Saldo de obra')."
+EMG-PER-MAR-05;EMG-PER-MAR-05;;Via marginal 5 km 207,4-209,6;;;;;;False;Km as built (alteracoes).
+EMG-PER-MAR-03;EMG-PER-MAR-03;;Via marginal 3 km 106,7-107,3 (Cristalina);;;;;;False;EXCLUIDA: saldo remanejado para a marginal de Cristalina (fica fora do cadastro).
+EMG-PER-MAR-04;EMG-PER-MAR-04;;Via marginal 4 km 107,3-108,0 (Cristalina);;;;;;False;EXCLUIDA: saldo remanejado para a marginal de Cristalina (fica fora do cadastro).
+EMG-PER-MAR-06;EMG-PER-MAR-06;;Via marginal 6 km 245,4-246,9 (Catalão);;;;;;False;"EXCLUIDA: 450 m para Cristalina e 800 m para Catalão; restante não documentado (fica fora do cadastro)."
+EMG-PER-ACE-01;EMG-PER-ACE-01;;Melhoria de acesso 1 km 247,0;;;;;;False;Ajuste de km (alteracoes).
+EMG-PER-ACE-02;EMG-PER-ACE-02;;Melhoria de acesso 2 km 258,0;;;;;;False;Ajuste de km (alteracoes).
+EMG-PER-ACE-03;EMG-PER-ACE-03;;Melhoria de acesso 3 km 264,0;;;;;;False;Ajuste de km (alteracoes).
+EMG-PER-ACE-06;EMG-PER-ACE-06;;Melhoria de acesso 6 km 287,0;;;;;;False;Datas de alteracoes.
+EMG-PER-ACE-07;EMG-PER-ACE-07;;Melhoria de acesso 7 km 289,0;;;;;;False;Ajuste de km (alteracoes).
+EMG-PER-ACE-08;EMG-PER-ACE-08;;Melhoria de acesso 8 km 301,0;;;;;;False;Ajuste de km (alteracoes).
+EMG-PER-ACE-04;EMG-PER-ACE-04;;Melhoria de acesso 4 km 282,0;;;;;EMG-0019;False;Mesmo km (282,0).
+EMG-PER-ACE-05;EMG-PER-ACE-05;;Melhoria de acesso 5 km 282,7;;;;;EMG-0020;False;Mesmo km (282,7).
+EMG-PER-TRV-01;EMG-PER-TRV-01;;Trevo completo km 276,5 (Catalão);;;;;EMG-0013;False;Mesmo km (276,5).
+EMG-PER-DUP-01-a;EMG-PER-DUP-01;;Duplicação perímetro urbano Cristalina km 95,7-99,4;;;;;EMG-0001|EMG-0002;False;"Trecho urbano de Cristalina (95,7-99,44) do acompanhamento; 'Adequação da pista existente' acompanha a duplicação."
+EMG-PER-DUP-11-b;EMG-PER-DUP-11;;Duplicação perímetro urbano Catalão km 275,4-286,8;;;;;EMG-0003|EMG-0004|EMG-0027|EMG-0028;False;"Parte em 050BGO0150 do trecho urbano de Catalão (275,4-286,8); adequação e restauração de pavimento do mesmo trecho ligam à duplicação."
+EMG-PER-DUP-12-a;EMG-PER-DUP-12;;Duplicação perímetro urbano Catalão km 275,4-286,8;;;;;EMG-0003|EMG-0004|EMG-0027|EMG-0028;False;Parte em 050BGO0152 do trecho urbano de Catalão (275,4-286,8).
+EMG-EXT-RNV-01;;;Retorno em nível km 107,2 (Extra-PER);;;;;EMG-0029;True;"Retorno em nível Extra-PER km 107,2; acompanhamento traz Uberaba/MG, Planilha base abr/2026 traz Cristalina/GO. Renumeração após correção do vínculo por km (consolidar.py, TOL_KM_VINCULO)."
+EMG-EXT-RNV-02;;;Retorno em nível km 131,4 (Extra-PER);;;;;EMG-0030;False;"Retorno em nível Extra-PER km 131,4. Renumeração após correção do vínculo por km (consolidar.py, TOL_KM_VINCULO)."
+EMG-EXT-RNV-03;;;Retorno em nível km 196,5 (Extra-PER);;;;;EMG-0031;True;"Retorno em nível Extra-PER km 196,5; UF divergente (GO na NT GEGIR 2023; MG/Delta na Planilha base; acompanhamento 'Ipameri/MG'). Renumeração após correção do vínculo por km (consolidar.py, TOL_KM_VINCULO)."

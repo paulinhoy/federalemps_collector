@@ -148,13 +148,15 @@ O previsto de cada ano de concessão é um **plano novo** que reprograma o que f
 Não existe um código único e estável na fonte. O item PER se repete entre obras, e a descrição é reescrita com frequência. A ECO050, por exemplo, alterna entre "Duplicação - km 95,700 ao 99,440" e "Duplicação da Travessia Urbana de Cristalina do km 95,700 ao km 99,440", e às vezes troca o item PER (3.2.1.2 → 3.2.3 → 3.2.1.2).
 
 O `obra_id` é atribuído percorrendo os meses em ordem, ligando cada linha a uma obra já conhecida por:
-1. mesma chave (item PER + descrição normalizada);
+1. mesma chave (item PER + descrição normalizada) e km inicial compatível (±1,5 km, quando os dois lados têm km; evita fundir obras homônimas em pontos diferentes, como os dois trevos tipo diamante da ECO050);
 2. mesmo item PER e mesmo km inicial/final (±50 m);
-3. mesmo item PER e descrição ≥ 85% parecida;
+3. mesmo item PER, descrição ≥ 85% parecida e km inicial compatível (±1,5 km);
 4. outro item PER, descrição ≥ 93% parecida e km compatível;
 5. senão, obra nova.
 
 O método usado fica na coluna `vinculo` para conferência.
+
+**Renumeração na ECO050 (correção do vínculo por km, `TOL_KM_VINCULO`).** Os dois "Trevo Tipo Diamante" (km 283,05 e km 151,5) estavam fundidos. Mapa antigo → novo: diamante km 283,05 = EMG-0017 (era EMG-0029 + parte da 0017); diamante km 151,5 = EMG-0018 (era 0018 + parte da 0017); retorno em nível km 107,2 EMG-0030 → EMG-0029; km 131,4 EMG-0031 → EMG-0030; km 196,5 EMG-0032 → EMG-0031. EMG-0032 deixa de existir.
 
 ## 5. Resultados: como os dados evoluíram
 
